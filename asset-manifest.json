@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/actividad1-dar/static/css/main.ca98d72d.css",
-    "main.js": "/actividad1-dar/static/js/main.3fbd96d7.js",
+    "main.js": "/actividad1-dar/static/js/main.2c5624ad.js",
     "index.html": "/actividad1-dar/index.html",
     "main.ca98d72d.css.map": "/actividad1-dar/static/css/main.ca98d72d.css.map",
-    "main.3fbd96d7.js.map": "/actividad1-dar/static/js/main.3fbd96d7.js.map"
+    "main.2c5624ad.js.map": "/actividad1-dar/static/js/main.2c5624ad.js.map"
   },
   "entrypoints": [
     "static/css/main.ca98d72d.css",
-    "static/js/main.3fbd96d7.js"
+    "static/js/main.2c5624ad.js"
   ]
 }
