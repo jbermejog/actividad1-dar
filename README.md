@@ -1,11 +1,11 @@
 
-# React Tutorial Application
+# React tutorial
 
 Este repositorio contiene un proyecto React diseñado para enseñar los conceptos básicos e intermedios del desarrollo con React. Incluye dos tutoriales principales: **Tutorial básico** y **Tutorial nivel medio**, además de una sección de referencias.
 
 ## Contenido
 
-- [React Tutorial Application](#react-tutorial-application)
+- [React tutorial](#react-tutorial)
   - [Contenido](#contenido)
   - [Características](#características)
   - [Requisitos](#requisitos)
@@ -13,8 +13,8 @@ Este repositorio contiene un proyecto React diseñado para enseñar los concepto
   - [Ejecución](#ejecución)
   - [Estructura del proyecto](#estructura-del-proyecto)
   - [Descripción de las secciones](#descripción-de-las-secciones)
-    - [1. **Tutorial Básico**](#1-tutorial-básico)
-    - [2. **Tutorial Nivel Medio**](#2-tutorial-nivel-medio)
+    - [1. **Tutorial básico**](#1-tutorial-básico)
+    - [2. **Tutorial nivel medio**](#2-tutorial-nivel-medio)
     - [3. **Referencias**](#3-referencias)
   - [Deploy](#deploy)
   - [Licencia](#licencia)
@@ -23,11 +23,11 @@ Este repositorio contiene un proyecto React diseñado para enseñar los concepto
 
 ## Características
 
-- **Tutorial Básico:** Introducción a React, incluyendo componentes, estados, y propiedades.
-- **Tutorial Nivel Medio:** Conceptos intermedios como Redux, Hooks personalizados, pruebas con Jest, y optimización de rendimiento.
-- **Navegación Dinámica:** Uso de React Router para navegación entre tutoriales y referencias.
-- **Iconos Personalizados:** Integración con Font Awesome para mejorar la experiencia de usuario.
-- **Despliegue Automatizado:** Configuración lista para desplegar en GitHub Pages.
+- **Tutorial básico:** Introducción a React, incluyendo componentes, estados, y propiedades.
+- **Tutorial nivel medio:** Conceptos intermedios como Redux, Hooks personalizados, pruebas con Jest, y optimización de rendimiento.
+- **Navegación dinámica:** Uso de React Router para navegación entre tutoriales y referencias.
+- **Iconos personalizados:** Integración con Font Awesome para mejorar la experiencia de usuario.
+- **Despliegue automatizado:** Configuración lista para desplegar en GitHub Pages.
 
 ---
 
@@ -96,13 +96,13 @@ src/
 
 ## Descripción de las secciones
 
-### 1. **Tutorial Básico**
+### 1. **Tutorial básico**
    Introducción a conceptos fundamentales de React:
    - Componentes funcionales.
    - Uso de estados y propiedades.
    - Primera aplicación React.
 
-### 2. **Tutorial Nivel Medio**
+### 2. **Tutorial nivel medio**
    Conceptos más avanzados para aplicaciones React robustas:
    - Implementación de Redux para gestión de estado.
    - Creación de Hooks personalizados.
