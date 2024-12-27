@@ -10,16 +10,16 @@ const SidebarMedium = () => {
       id="mySidebar"
     >
       <h4 className="w3-bar-item">
-        <b>Menu</b>
+        <b>Men&uacute;</b>
       </h4>
       <a href="#gestion-estado-redux" className="w3-bar-item w3-button w3-hover-black">
-        <FontAwesomeIcon icon={faChartLine} className="sidebar-icon" /> Gestión de Estado (Redux)
+        <FontAwesomeIcon icon={faChartLine} className="sidebar-icon" /> Gestión de estado (Redux)
       </a>
       <a href="#hooks-personalizados" className="w3-bar-item w3-button w3-hover-black">
-        <FontAwesomeIcon icon={faWebAwesome} className="sidebar-icon" /> Hooks Personalizados
+        <FontAwesomeIcon icon={faWebAwesome} className="sidebar-icon" /> Hooks personalizados
       </a>
       <a href="#optimizacion-rendimiento" className="w3-bar-item w3-button w3-hover-black">
-        <FontAwesomeIcon icon={faTachometerAlt} className="sidebar-icon" /> Optimización de Rendimiento
+        <FontAwesomeIcon icon={faTachometerAlt} className="sidebar-icon" /> Optimización de rendimiento
       </a>
       <a href="#pruebas-jest" className="w3-bar-item w3-button w3-hover-black">
         <FontAwesomeIcon icon={faVial} className="sidebar-icon" /> Pruebas con Jest

@@ -10,7 +10,7 @@ const Sidebar = () => {
       id="mySidebar"
     >
       <h4 className="w3-bar-item">
-        <b>Menu</b>
+        <b>Men&aacute;</b>
       </h4>
       <a href="#justificacion" className="w3-bar-item w3-button w3-hover-black">
         <FontAwesomeIcon icon={faWrench} className="sidebar-icon" /> Justificación
@@ -19,7 +19,7 @@ const Sidebar = () => {
         <FontAwesomeIcon icon={faDownload} className="sidebar-icon" /> Instalación
       </a>
       <a href="#primeros-pasos" className="w3-bar-item w3-button w3-hover-black">
-        <FontAwesomeIcon icon={faPlay} className="sidebar-icon" /> Primeros Pasos
+        <FontAwesomeIcon icon={faPlay} className="sidebar-icon" /> Primeros pasos
       </a>
       <a href="#utilizacion" className="w3-bar-item w3-button w3-hover-black">
         <FontAwesomeIcon icon={faCogs} className="sidebar-icon" /> Utilización
