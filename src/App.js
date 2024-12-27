@@ -12,7 +12,7 @@ import './App.css'; // Archivo CSS para estilos generales
 // Componente para manejar la disposición según la ruta
 const AppContent = () => {
   const location = useLocation();
-
+  console.log("Ruta actual:", location.pathname);
   return (
     <div className="App">
       <Navbar />
@@ -23,6 +23,7 @@ const AppContent = () => {
       <div className="main-content">
         <Routes>
           <Route path="/" element={<Navigate to="/tutorial-basico" />} />
+          <Route path="/actividad1-dar" element={<Navigate to="/tutorial-basico" />} />
           <Route path="/tutorial-basico/*" element={<MainContent />} />
           <Route path="/tutorial-nivel-medio/*" element={<MediumContent />} />
           {/* Nueva Ruta para Referencias */}

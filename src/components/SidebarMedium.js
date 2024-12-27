@@ -2,26 +2,13 @@
 import React from 'react';
 
 const SidebarMedium = () => {
-  const handleClose = () => {
-    const sidebar = document.getElementById('mySidebar');
-    const overlay = document.getElementById('myOverlay');
-    sidebar.style.display = 'none';
-    overlay.style.display = 'none';
-  };
+
 
   return (
     <nav
       className="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left"
       id="mySidebar"
     >
-      <a
-        href="#"
-        onClick={handleClose}
-        className="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large"
-        title="Close Menu"
-      >
-        <i className="fa fa-remove"></i>
-      </a>
       <h4 className="w3-bar-item">
         <b>Menu</b>
       </h4>
