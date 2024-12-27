@@ -1,0 +1,74 @@
+/* App.css */
+/* src/App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Estilos para el área de contenido principal */
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+/* Ajustes para pantallas grandes */
+@media (min-width: 768px) {
+  .main-content {
+    margin-left: 250px; /* Ancho del Sidebar */
+  }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 767px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
+
+/* Asegúrate de que el cuerpo ocupe todo el alto */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Estilos adicionales si es necesario */
+
+/* Estilos para párrafos */
+p {
+  font-size: 1.2em; /* Aumenta el tamaño del texto */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Estilos para títulos */
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #20232a; /* Ajusta el color según tus necesidades */
+}
+
+.w3-text-teal {
+  color: #008080 !important; /* Asegura que el color sea consistente */
+}
+
+/* Estilos para bloques de código */
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #d14;
+}
+
+/* Estilos para secciones */
+.w3-section {
+  margin-bottom: 40px;
+}
