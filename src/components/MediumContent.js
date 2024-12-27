@@ -6,14 +6,14 @@ const MediumContent = () => {
       <div className="w3-main" style={{ marginLeft: '250px', padding: '20px' }}>
       <div className="w3-container">
         <p>&nbsp;</p>
-        <h1 className="w3-text-teal">Tutorial Nivel Medio</h1>
+        <h1 className="w3-text-teal">Tutorial nivel medio</h1>
         <p>
           Bienvenido al tutorial de React de nivel medio. En este apartado, profundizaremos en conceptos más avanzados que te ayudarán a construir aplicaciones más robustas y eficientes.
         </p>
 
         {/* Sección 1 */}
         <section id="gestion-estado-redux" className="w3-section">
-          <h1 className="w3-text-teal">1. Gestión de Estado Avanzada con Redux</h1>
+          <h1 className="w3-text-teal">Gestión avanzada de estado con Redux</h1>
           <p>
             Redux es una librería para la gestión del estado de aplicaciones JavaScript. Se integra perfectamente con React y facilita el manejo de estados complejos en aplicaciones grandes.
           </p>
@@ -49,7 +49,7 @@ export default store;
 
         {/* Sección 2 */}
         <section id="hooks-personalizados" className="w3-section">
-          <h1 className="w3-text-teal">2. Hooks Personalizados</h1>
+          <h1 className="w3-text-teal">Hooks personalizados</h1>
           <p>
             Los Hooks personalizados permiten reutilizar lógica de estado entre componentes. Esto promueve un código más limpio y modular.
           </p>
@@ -87,7 +87,7 @@ export default useFetch;
 
         {/* Sección 3 */}
         <section id="optimizacion-rendimiento" className="w3-section">
-          <h1 className="w3-text-teal">3. Optimización de Rendimiento</h1>
+          <h1 className="w3-text-teal">Optimización de rendimiento</h1>
           <p>
             Para mejorar el rendimiento de tus aplicaciones React, puedes implementar técnicas como la carga diferida (lazy loading) y la memorización de componentes con <code>React.memo</code>.
           </p>
@@ -115,7 +115,7 @@ export default App;
 
         {/* Sección 4 */}
         <section id="pruebas-jest" className="w3-section">
-          <h1 className="w3-text-teal">4. Pruebas con Jest y React Testing Library</h1>
+          <h1 className="w3-text-teal">Pruebas con Jest y React Testing Library</h1>
           <p>
             Implementar pruebas unitarias y de integración garantiza que tus componentes funcionen correctamente y facilita el mantenimiento del código.
           </p>
@@ -138,7 +138,7 @@ test('muestra el saludo correcto', () => {
 
         {/* Sección 5 */}
         <section id="integracion-apis" className="w3-section">
-          <h1 className="w3-text-teal">5. Integración con APIs Externas</h1>
+          <h1 className="w3-text-teal">Integración con APIs externas</h1>
           <p>
             Conectar tus aplicaciones React con APIs externas permite obtener y enviar datos de manera dinámica, mejorando la funcionalidad y la experiencia del usuario.
           </p>
