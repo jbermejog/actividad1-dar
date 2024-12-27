@@ -1,70 +1,139 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Tutorial Application
 
-## Available Scripts
+Este repositorio contiene un proyecto React diseñado para enseñar los conceptos básicos e intermedios del desarrollo con React. Incluye dos tutoriales principales: **Tutorial básico** y **Tutorial nivel medio**, además de una sección de referencias.
 
-In the project directory, you can run:
+## Contenido
 
-### `npm start`
+- [React Tutorial Application](#react-tutorial-application)
+  - [Contenido](#contenido)
+  - [Características](#características)
+  - [Requisitos](#requisitos)
+  - [Instalación](#instalación)
+  - [Ejecución](#ejecución)
+  - [Estructura del proyecto](#estructura-del-proyecto)
+  - [Descripción de las secciones](#descripción-de-las-secciones)
+    - [1. **Tutorial Básico**](#1-tutorial-básico)
+    - [2. **Tutorial Nivel Medio**](#2-tutorial-nivel-medio)
+    - [3. **Referencias**](#3-referencias)
+  - [Deploy](#deploy)
+  - [Licencia](#licencia)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Características
 
-### `npm test`
+- **Tutorial Básico:** Introducción a React, incluyendo componentes, estados, y propiedades.
+- **Tutorial Nivel Medio:** Conceptos intermedios como Redux, Hooks personalizados, pruebas con Jest, y optimización de rendimiento.
+- **Navegación Dinámica:** Uso de React Router para navegación entre tutoriales y referencias.
+- **Iconos Personalizados:** Integración con Font Awesome para mejorar la experiencia de usuario.
+- **Despliegue Automatizado:** Configuración lista para desplegar en GitHub Pages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Node.js:** Versión 14.x o superior.
+- **npm:** Versión 6.x o superior.
+- **React:** Versión 18.x.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalación
 
-### `npm run eject`
+Sigue estos pasos para instalar y configurar el proyecto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clona este repositorio:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/jbermejog/actividad1-dar.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Accede al directorio del proyecto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   cd actividad1-dar
+   ```
 
-## Learn More
+3. Instala las dependencias:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Ejecución
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Inicia el servidor de desarrollo con el siguiente comando:
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Esto abrirá la aplicación en `http://localhost:3000` en tu navegador.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Estructura del proyecto
 
-### Advanced Configuration
+La estructura principal del proyecto es la siguiente:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```plaintext
+src/
+├── components/
+│   ├── Navbar.js          # Menú de navegación superior
+│   ├── Sidebar.js         # Barra lateral del tutorial básico
+│   ├── SidebarMedium.js   # Barra lateral del tutorial nivel medio
+│   ├── MainContent.js     # Contenido del tutorial básico
+│   ├── MediumContent.js   # Contenido del tutorial nivel medio
+├── App.js                 # Componente principal
+├── index.js               # Punto de entrada
+├── App.css                # Estilos globales
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Descripción de las secciones
 
-### `npm run build` fails to minify
+### 1. **Tutorial Básico**
+   Introducción a conceptos fundamentales de React:
+   - Componentes funcionales.
+   - Uso de estados y propiedades.
+   - Primera aplicación React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 2. **Tutorial Nivel Medio**
+   Conceptos más avanzados para aplicaciones React robustas:
+   - Implementación de Redux para gestión de estado.
+   - Creación de Hooks personalizados.
+   - Optimización de rendimiento con React.memo.
+   - Uso de Jest para pruebas unitarias.
+
+### 3. **Referencias**
+   Recursos útiles y documentación adicional para ampliar tus conocimientos sobre React.
+
+---
+
+## Deploy
+
+El proyecto está configurado para ser desplegado en GitHub Pages.
+
+1. Actualiza el campo `homepage` en `package.json` con la URL de tu repositorio:
+
+   ```json
+   "homepage": "https://<tu-usuario>.github.io/<nombre-del-repositorio>"
+   ```
+
+2. Ejecuta el comando de despliegue:
+
+   ```bash
+   npm run deploy
+   ```
+
+3. Accede a la aplicación en la URL configurada en `homepage`.
+
+---
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
