@@ -66,7 +66,7 @@ const MainContent = () => {
                         <strong>Ejemplo de JSX:</strong>
                     </p>
                     <figure style={{ textAlign: 'center' }}>
-                        <img src="https://jbermejog.github.io//actividad1-dar/ejemplo1.png" alt="Ejemplo de JSX" width="400" />
+                        <img src="https://jbermejog.github.io//actividad1-dar/ejemplo1.png" alt="Ejemplo de JSX"  width="425" />
                         <figcaption>
                             Ejemplo de un componente React en TypeScript.<br />
                             Fuente: Elaboración propia.
