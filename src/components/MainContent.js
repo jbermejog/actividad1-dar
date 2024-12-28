@@ -65,16 +65,7 @@ const MainContent = () => {
                     <p>
                         <strong>Ejemplo de JSX:</strong>
                     </p>
-                    <pre><code>{`
-    const HolaMundo = () => {
-      return (
-        <div>
-          <h1>¡Hola Mundo!</h1>
-          <p>Bienvenido a React.</p>
-        </div>
-      );
-    };
-    `}</code></pre>
+                    <img src="https://jbermejog.github.io//actividad1-dar/ejemplo1.png" alt="Ejemplo de Hola Mundo en React" />
                     <p>
                         <strong>TypeScript</strong> es un superconjunto de JavaScript que añade tipado estático y otras características avanzadas. Aunque no es obligatorio, su uso en proyectos React mejora la calidad del código y facilita la detección de errores en tiempo de compilación.
                     </p>
