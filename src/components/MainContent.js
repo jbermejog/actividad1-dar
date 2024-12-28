@@ -184,8 +184,8 @@ const MainContent = () => {
                         <li>Ejecuta el instalador y sigue las instrucciones en pantalla para completar la instalación.</li>
                         <li>Verifica la instalación abriendo una terminal y ejecutando los siguientes comandos para comprobar las versiones instaladas:
 <pre><code>{`
-                            node -v
-                            npm -v
+node -v
+npm -v
 `}</code></pre>
                         </li>
                     </ul>
@@ -297,7 +297,7 @@ const MainContent = () => {
                         Dentro del directorio del proyecto, es recomendable seguir una <strong>estructura de directorios estándar</strong> para organizar tus archivos y carpetas. Esto incluye separar los componentes, estilos, assets, y otros recursos en carpetas específicas.
                     </p>
                     <figure>
-                        <img src="/directorios.jpg"
+                        <img src="https://jbermejog.github.io//actividad1-dar/directorios.jpg"
                             alt="Estructura de directorios"
                             height="400" />
                         <figcaption>
