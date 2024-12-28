@@ -3,13 +3,13 @@ import React from 'react';
 const MainContent = () => {
     return (
         <div className="w3-main" style={{ marginLeft: '250px' }}>
-            {/* Justificación del Framework */}
+            {/* Justificaci&oacute;n del Framework */}
             <section id="justificacion" className="w3-row w3-padding-64">
                 <div className="w3-twothird w3-container">
-                    <h1 className="w3-text-teal">Justificación del Framework React</h1>
+                    <h1 className="w3-text-teal">Justificaci&oacute;n del Framework React</h1>
                     <h2>¿Para qué sirve?</h2>
                     <p>
-                        React es una biblioteca de JavaScript diseñada para construir interfaces de usuario interactivas y eficientes. Facilita el desarrollo de aplicaciones web dinámicas al permitir a los desarrolladores crear componentes reutilizables que encapsulan tanto la lógica como la presentación. Gracias a su <strong>arquitectura basada en componentes</strong>, React promueve la modularidad y la mantenibilidad del código, lo que resulta especialmente beneficioso en proyectos de gran escala.</p>
+                        React es una biblioteca de JavaScript diseñada para construir interfaces de usuario interactivas y eficientes. Facilita el desarrollo de aplicaciones web din&aacute;micas al permitir a los desarrolladores crear componentes reutilizables que encapsulan tanto la l&oacute;gica como la presentaci&oacute;n. Gracias a su <strong>arquitectura basada en componentes</strong>, React promueve la modularidad y la mantenibilidad del c&oacute;digo, lo que resulta especialmente beneficioso en proyectos de gran escala.</p>
                     <figure style={{ textAlign: 'center' }}>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
                             alt="Logotipo de React"
@@ -23,44 +23,44 @@ const MainContent = () => {
                         </figcaption>
                     </figure>
 
-                    <p>Una de las características clave de React es su <strong>Virtual DOM,</strong> que optimiza las actualizaciones de la interfaz de usuario al minimizar las manipulaciones directas del DOM real, mejorando así el rendimiento y la velocidad de las aplicaciones. Además, React soporta <strong>JSX</strong>, una sintaxis que combina JavaScript y HTML, lo que simplifica la creación y comprensión de los componentes.</p>
+                    <p>Una de las características clave de React es su <strong>Virtual DOM,</strong> que optimiza las actualizaciones de la interfaz de usuario al minimizar las manipulaciones directas del DOM real, mejorando así el rendimiento y la velocidad de las aplicaciones. Adem&aacute;s, React soporta <strong>JSX</strong>, una sintaxis que combina JavaScript y HTML, lo que simplifica la creaci&oacute;n y comprensi&oacute;n de los componentes.</p>
 
-                    <p>React también se integra de manera fluida con otras bibliotecas y frameworks, lo que permite ampliar sus capacidades según las necesidades del proyecto. Por ejemplo, mediante el uso de <strong>React Router</strong>, es posible gestionar la navegación dentro de una aplicación de una sola página (SPA), mientras que Redux facilita la gestión del estado global de la aplicación.</p>
+                    <p>React también se integra de manera fluida con otras bibliotecas y frameworks, lo que permite ampliar sus capacidades seg&uacute;n las necesidades del proyecto. Por ejemplo, mediante el uso de <strong>React Router</strong>, es posible gestionar la navegaci&oacute;n dentro de una aplicaci&oacute;n de una sola p&aacute;gina (SPA), mientras que Redux facilita la gesti&oacute;n del estado global de la aplicaci&oacute;n.</p>
 
-                    <p>También, React cuenta con un ecosistema robusto y una comunidad activa que continuamente aporta herramientas, extensiones y recursos educativos, lo que facilita a los desarrolladores mantenerse actualizados con las mejores prácticas y tendencias del desarrollo web moderno.          </p>
+                    <p>También, React cuenta con un ecosistema robusto y una comunidad activa que continuamente aporta herramientas, extensiones y recursos educativos, lo que facilita a los desarrolladores mantenerse actualizados con las mejores pr&aacute;cticas y tendencias del desarrollo web moderno.          </p>
                     <h2>¿Qué aplicaciones tiene?</h2>
                     <ul>
                         <li>Desarrollo de interfaces de usuario</li>
-                        <li>Aplicaciones de una sola página (SPA)</li>
-                        <li>Aplicaciones móviles con React Native</li>
+                        <li>Aplicaciones de una sola p&aacute;gina (SPA)</li>
+                        <li>Aplicaciones m&oacute;viles con React Native</li>
                         <li>Aplicaciones de escritorio con Electron</li>
                     </ul>
 
                     <h2>¿Sobre qué lenguajes se apoya?</h2>
                     <p>
-                        React, siendo una <strong>biblioteca</strong> de <strong>JavaScript</strong>, se apoya principalmente en una combinación de lenguajes y tecnologías que trabajan en conjunto para crear interfaces de usuario dinámicas y eficientes. Las tecnologías clave que sustentan React son:
+                        React, siendo una <strong>biblioteca</strong> de <strong>JavaScript</strong>, se apoya principalmente en una combinaci&oacute;n de lenguajes y tecnologías que trabajan en conjunto para crear interfaces de usuario din&aacute;micas y eficientes. Las tecnologías clave que sustentan React son:
                     </p>
                     <p>
-                        <strong>JavaScript</strong> es el lenguaje de programación principal en el que está construido React. Es un lenguaje interpretado, dinámico y multiparadigma que permite la creación de aplicaciones web interactivas.
+                        <strong>JavaScript</strong> es el lenguaje de programaci&oacute;n principal en el que est&aacute; construido React. Es un lenguaje interpretado, din&aacute;mico y multiparadigma que permite la creaci&oacute;n de aplicaciones web interactivas.
                     </p>
                     <p>
                         <strong>Características clave de JavaScript en React:</strong>
                     </p>
                     <ul>
-                        <li><strong>Manipulación del DOM:</strong> React utiliza JavaScript para manipular el <strong>Document Object Model (DOM)</strong> de manera eficiente a través del Virtual DOM.</li>
-                        <li><strong>Funciones y clases:</strong> React permite la creación de componentes tanto funcionales como basados en clases, aprovechando las características de JavaScript.</li>
-                        <li><strong>Asincronía:</strong> Maneja operaciones asincrónicas como llamadas a APIs utilizando promesas y <strong>async/await</strong>.</li>
+                        <li><strong>Manipulaci&oacute;n del DOM:</strong> React utiliza JavaScript para manipular el <strong>Document Object Model (DOM)</strong> de manera eficiente a través del Virtual DOM.</li>
+                        <li><strong>Funciones y clases:</strong> React permite la creaci&oacute;n de componentes tanto funcionales como basados en clases, aprovechando las características de JavaScript.</li>
+                        <li><strong>Asincronía:</strong> Maneja operaciones asincr&oacute;nicas como llamadas a APIs utilizando promesas y <strong>async/await</strong>.</li>
                     </ul>
                     <p>
-                        <strong>JSX</strong> es una extensión de sintaxis para JavaScript que permite escribir estructuras similares a HTML dentro del código JavaScript. Aunque no es obligatorio, JSX facilita la creación y visualización de componentes de React de manera más intuitiva.
+                        <strong>JSX</strong> es una extensi&oacute;n de sintaxis para JavaScript que permite escribir estructuras similares a HTML dentro del c&oacute;digo JavaScript. Aunque no es obligatorio, JSX facilita la creaci&oacute;n y visualizaci&oacute;n de componentes de React de manera m&aacute;s intuitiva.
                     </p>
                     <p>
                         <strong>Características clave de JSX:</strong>
                     </p>
                     <ul>
-                        <li><strong>Sintaxis declarativa:</strong> Permite describir cómo debería verse la interfaz de usuario de manera declarativa.</li>
-                        <li><strong>Interoperabilidad:</strong> Se compila a llamadas de función de JavaScript, lo que permite la integración con cualquier lógica de JavaScript.</li>
-                        <li><strong>Facilidad de lectura:</strong> Mejora la legibilidad del código al combinar la lógica y la presentación en un solo lugar.</li>
+                        <li><strong>Sintaxis declarativa:</strong> Permite describir c&oacute;mo debería verse la interfaz de usuario de manera declarativa.</li>
+                        <li><strong>Interoperabilidad:</strong> Se compila a llamadas de funci&oacute;n de JavaScript, lo que permite la integraci&oacute;n con cualquier l&oacute;gica de JavaScript.</li>
+                        <li><strong>Facilidad de lectura:</strong> Mejora la legibilidad del c&oacute;digo al combinar la l&oacute;gica y la presentaci&oacute;n en un solo lugar.</li>
                     </ul>
                     <p>
                         <strong>Ejemplo de JSX:</strong>
@@ -69,19 +69,19 @@ const MainContent = () => {
                         <img src="https://jbermejog.github.io//actividad1-dar/ejemplo1.png" alt="Ejemplo de JSX"  width="425" />
                         <figcaption>
                             Ejemplo de un componente React en TypeScript.<br />
-                            Fuente: Elaboración propia.
+                            Fuente: Elaboraci&oacute;n propia.
                         </figcaption>
                     </figure>
                     <p>
-                        <strong>TypeScript</strong> es un superconjunto de JavaScript que añade tipado estático y otras características avanzadas. Aunque no es obligatorio, su uso en proyectos React mejora la calidad del código y facilita la detección de errores en tiempo de compilación.
+                        <strong>TypeScript</strong> es un superconjunto de JavaScript que añade tipado est&aacute;tico y otras características avanzadas. Aunque no es obligatorio, su uso en proyectos React mejora la calidad del c&oacute;digo y facilita la detecci&oacute;n de errores en tiempo de compilaci&oacute;n.
                     </p>
                     <p>
                         <strong>Características clave de TypeScript en React:</strong>
                     </p>
                     <ul>
-                        <li><strong>Tipado estático:</strong> Permite definir tipos para variables, funciones y componentes, reduciendo errores en tiempo de ejecución.</li>
-                        <li><strong>IntelliSense:</strong> Mejora la experiencia de desarrollo con autocompletado y documentación en tiempo real.</li>
-                        <li><strong>Refactorización segura:</strong> Facilita la refactorización del código sin introducir errores.</li>
+                        <li><strong>Tipado est&aacute;tico:</strong> Permite definir tipos para variables, funciones y componentes, reduciendo errores en tiempo de ejecuci&oacute;n.</li>
+                        <li><strong>IntelliSense:</strong> Mejora la experiencia de desarrollo con autocompletado y documentaci&oacute;n en tiempo real.</li>
+                        <li><strong>Refactorizaci&oacute;n segura:</strong> Facilita la refactorizaci&oacute;n del c&oacute;digo sin introducir errores.</li>
                     </ul>
                     <p>
                         <strong>Ejemplo de un Componente en TypeScript:</strong>
@@ -107,7 +107,7 @@ const MainContent = () => {
     `}</code></pre>
 
                     <p>
-                        Aunque React maneja la lógica y estructura de la interfaz de usuario a través de JavaScript y JSX, sigue dependiendo de <strong>HTML</strong> y <strong>CSS</strong> para la presentación y el diseño visual.
+                        Aunque React maneja la l&oacute;gica y estructura de la interfaz de usuario a través de JavaScript y JSX, sigue dependiendo de <strong>HTML</strong> y <strong>CSS</strong> para la presentaci&oacute;n y el diseño visual.
                     </p>
                     <p>
                         <strong>Características clave de HTML y CSS en React:</strong>
@@ -138,48 +138,48 @@ const MainContent = () => {
 
 
                     <p>
-                        Además de los lenguajes mencionados, React puede integrarse con otras tecnologías para ampliar su funcionalidad:
+                        Adem&aacute;s de los lenguajes mencionados, React puede integrarse con otras tecnologías para ampliar su funcionalidad:
                     </p>
                     <ul>
                         <li><strong>GraphQL:</strong> Un lenguaje de consulta para APIs que permite obtener datos de manera eficiente.</li>
                         <li><strong>JSON:</strong> Formato de intercambio de datos ampliamente utilizado en aplicaciones web.</li>
-                        <li><strong>SQL:</strong> Para gestionar bases de datos relacionales en aplicaciones más complejas.</li>
-                        <li><strong>WebAssembly:</strong> Permite ejecutar código de alto rendimiento en el navegador, complementando las capacidades de React.</li>
+                        <li><strong>SQL:</strong> Para gestionar bases de datos relacionales en aplicaciones m&aacute;s complejas.</li>
+                        <li><strong>WebAssembly:</strong> Permite ejecutar c&oacute;digo de alto rendimiento en el navegador, complementando las capacidades de React.</li>
                     </ul>
 
 
                     <h2>¿Qué prerrequisitos necesita?</h2>
                     <p>
-                        Conocimientos básicos de JavaScript, HTML y CSS.
+                        Conocimientos b&aacute;sicos de JavaScript, HTML y CSS.
                     </p>
                 </div>
 
 
             </section>
 
-            {/* Instalación */}
+            {/* Instalaci&oacute;n */}
             <section id="instalacion" className="w3-row w3-padding-64">
                 <div className="w3-twothird w3-container">
-                    <h1 className="w3-text-teal">Instalación</h1>
-                    <h2>¿Se precisa instalación?</h2>
+                    <h1 className="w3-text-teal">Instalaci&oacute;n</h1>
+                    <h2>¿Se precisa instalaci&oacute;n?</h2>
 
                     <p>
-                        Sí, es necesario <strong>instalar Node.js</strong> y <strong>npm</strong> para gestionar las <strong>dependencias</strong> de React. <strong>Node.js</strong> proporciona el entorno de ejecución de JavaScript necesario para ejecutar herramientas de desarrollo como <em>Create React App</em>, mientras que <strong>npm</strong> (Node Package Manager) facilita la instalación y gestión de los paquetes y bibliotecas que React utiliza. Estas herramientas son esenciales para configurar, desarrollar y mantener una aplicación React de manera eficiente. Además, contar con la versión correcta de <strong>Node.js</strong> garantiza la compatibilidad y el rendimiento óptimo de las herramientas y dependencias utilizadas en el proyecto.
+                        Sí, es necesario <strong>instalar Node.js</strong> y <strong>npm</strong> para gestionar las <strong>dependencias</strong> de React. <strong>Node.js</strong> proporciona el entorno de ejecuci&oacute;n de JavaScript necesario para ejecutar herramientas de desarrollo como <em>Create React App</em>, mientras que <strong>npm</strong> (Node Package Manager) facilita la instalaci&oacute;n y gesti&oacute;n de los paquetes y bibliotecas que React utiliza. Estas herramientas son esenciales para configurar, desarrollar y mantener una aplicaci&oacute;n React de manera eficiente. Adem&aacute;s, contar con la versi&oacute;n correcta de <strong>Node.js</strong> garantiza la compatibilidad y el rendimiento &oacute;ptimo de las herramientas y dependencias utilizadas en el proyecto.
 
                     </p>
-                    <h2>¿Qué pasos hay que realizar para realizar la instalación?</h2>
+                    <h2>¿Qué pasos hay que realizar para realizar la instalaci&oacute;n?</h2>
 
                     <strong>Instalar Node.js y npm desde <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">nodejs.org</a></strong>.
                     <p>
-                        Para comenzar a desarrollar con React, es imprescindible <strong>instalar Node.js</strong> y <strong>npm</strong> (Node Package Manager). Node.js proporciona el entorno de ejecución de JavaScript necesario para ejecutar herramientas de desarrollo como <em>Create React App</em>, mientras que npm facilita la gestión de las <strong>dependencias</strong> y bibliotecas que React utiliza.
+                        Para comenzar a desarrollar con React, es imprescindible <strong>instalar Node.js</strong> y <strong>npm</strong> (Node Package Manager). Node.js proporciona el entorno de ejecuci&oacute;n de JavaScript necesario para ejecutar herramientas de desarrollo como <em>Create React App</em>, mientras que npm facilita la gesti&oacute;n de las <strong>dependencias</strong> y bibliotecas que React utiliza.
                     </p>
                     <p>
-                        <strong>Pasos para la instalación:</strong>
+                        <strong>Pasos para la instalaci&oacute;n:</strong>
                     </p>
                     <ul>
-                        <li>Visita la página oficial de Node.js en <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">nodejs.org</a> y descarga el instalador adecuado para tu sistema operativo.</li>
-                        <li>Ejecuta el instalador y sigue las instrucciones en pantalla para completar la instalación.</li>
-                        <li>Verifica la instalación abriendo una terminal y ejecutando los siguientes comandos para comprobar las versiones instaladas:
+                        <li>Visita la p&aacute;gina oficial de Node.js en <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">nodejs.org</a> y descarga el instalador adecuado para tu sistema operativo.</li>
+                        <li>Ejecuta el instalador y sigue las instrucciones en pantalla para completar la instalaci&oacute;n.</li>
+                        <li>Verifica la instalaci&oacute;n abriendo una terminal y ejecutando los siguientes comandos para comprobar las versiones instaladas:
                             <pre><code>{`
 node -v
 npm -v
@@ -187,68 +187,68 @@ npm -v
                         </li>
                     </ul>
 
-                    <strong>Crear una aplicación React utilizando Create React App</strong>.
+                    <strong>Crear una aplicaci&oacute;n React utilizando Create React App</strong>.
                     <p>
-                        Una vez que Node.js y npm están instalados correctamente, el siguiente paso es crear una nueva aplicación React. <strong>Create React App</strong> es una herramienta oficial de React que simplifica el proceso de configuración inicial, proporcionando una estructura de proyecto estándar y preconfiguraciones optimizadas.
+                        Una vez que Node.js y npm est&aacute;n instalados correctamente, el siguiente paso es crear una nueva aplicaci&oacute;n React. <strong>Create React App</strong> es una herramienta oficial de React que simplifica el proceso de configuraci&oacute;n inicial, proporcionando una estructura de proyecto est&aacute;ndar y preconfiguraciones optimizadas.
                     </p>
                     <p>
-                        <strong>Pasos para crear una aplicación React:</strong>
+                        <strong>Pasos para crear una aplicaci&oacute;n React:</strong>
                     </p>
                     <ul>
-                        <li>Abre una terminal y ejecuta el siguiente comando para crear una nueva aplicación React llamada <code>react-tutorial</code>:
+                        <li>Abre una terminal y ejecuta el siguiente comando para crear una nueva aplicaci&oacute;n React llamada <code>react-tutorial</code>:
                             <pre><code>{`npx create-react-app react-tutorial`}</code></pre>
                             <span>Este comando utiliza <strong>npx</strong> para ejecutar <strong>Create React App</strong> sin necesidad de instalarlo globalmente.</span>
                         </li>
-                        <li>Una vez finalizada la creación del proyecto, navega al directorio de la aplicación:
+                        <li>Una vez finalizada la creaci&oacute;n del proyecto, navega al directorio de la aplicaci&oacute;n:
                             <pre><code>{`cd react-tutorial`}</code></pre>
                         </li>
-                        <li>Inicia el servidor de desarrollo para ver la aplicación en acción:
+                        <li>Inicia el servidor de desarrollo para ver la aplicaci&oacute;n en acci&oacute;n:
                             <pre><code>{`npm start`}</code></pre>
-                            <span>Este comando abrirá la aplicación en tu navegador predeterminado en <strong>http://localhost:3000</strong>, donde podrás ver la página de inicio predeterminada de React.</span>
+                            <span>Este comando abrir&aacute; la aplicaci&oacute;n en tu navegador predeterminado en <strong>http://localhost:3000</strong>, donde podr&aacute;s ver la p&aacute;gina de inicio predeterminada de React.</span>
                         </li>
                     </ul>
 
 
                     <h2>¿Versiones necesarias?</h2>
 
-                    <strong>Node.js: Versión 14.x o superior</strong>
+                    <strong>Node.js: Versi&oacute;n 14.x o superior</strong>
                     <p>
-                        Para desarrollar aplicaciones con React, es esencial contar con una versión de <strong>Node.js</strong> que sea <strong>14.x o superior</strong>. Esta versión garantiza la compatibilidad con las últimas características y mejoras de rendimiento que React y sus herramientas asociadas requieren.
+                        Para desarrollar aplicaciones con React, es esencial contar con una versi&oacute;n de <strong>Node.js</strong> que sea <strong>14.x o superior</strong>. Esta versi&oacute;n garantiza la compatibilidad con las &uacute;ltimas características y mejoras de rendimiento que React y sus herramientas asociadas requieren.
                     </p>
                     <p>
                         <strong>Razones para usar Node.js 14.x o superior:</strong>
                     </p>
                     <ul>
                         <li>
-                            <strong>Compatibilidad con Create React App:</strong> Las versiones más recientes de <strong>Create React App</strong> están optimizadas para funcionar con Node.js 14.x y superiores, asegurando una configuración y ejecución sin problemas.
+                            <strong>Compatibilidad con Create React App:</strong> Las versiones m&aacute;s recientes de <strong>Create React App</strong> est&aacute;n optimizadas para funcionar con Node.js 14.x y superiores, asegurando una configuraci&oacute;n y ejecuci&oacute;n sin problemas.
                         </li>
                         <li>
-                            <strong>Mejoras de rendimiento:</strong> Las versiones más nuevas de Node.js incluyen mejoras significativas en el rendimiento y la eficiencia, lo que resulta en tiempos de compilación y ejecución más rápidos.
+                            <strong>Mejoras de rendimiento:</strong> Las versiones m&aacute;s nuevas de Node.js incluyen mejoras significativas en el rendimiento y la eficiencia, lo que resulta en tiempos de compilaci&oacute;n y ejecuci&oacute;n m&aacute;s r&aacute;pidos.
                         </li>
                         <li>
-                            <strong>Soporte de características Modernas:</strong> Las versiones más recientes soportan las últimas características de JavaScript y mejoras en el manejo de dependencias, lo que facilita el desarrollo de aplicaciones modernas y escalables.
+                            <strong>Soporte de características Modernas:</strong> Las versiones m&aacute;s recientes soportan las &uacute;ltimas características de JavaScript y mejoras en el manejo de dependencias, lo que facilita el desarrollo de aplicaciones modernas y escalables.
                         </li>
                         <li>
                             <strong>Seguridad:</strong> Las versiones actuales de Node.js reciben actualizaciones de seguridad, lo que protege tu entorno de desarrollo contra vulnerabilidades conocidas.
                         </li>
                     </ul>
 
-                    <strong>npm: Versión 6.x o superior</strong>
+                    <strong>npm: Versi&oacute;n 6.x o superior</strong>
                     <p>
-                        <strong>npm</strong> (Node Package Manager) es la herramienta de gestión de paquetes predeterminada para Node.js. Es crucial tener una versión de <strong>6.x o superior</strong> para asegurar la compatibilidad con las últimas dependencias y paquetes que React utiliza.
+                        <strong>npm</strong> (Node Package Manager) es la herramienta de gesti&oacute;n de paquetes predeterminada para Node.js. Es crucial tener una versi&oacute;n de <strong>6.x o superior</strong> para asegurar la compatibilidad con las &uacute;ltimas dependencias y paquetes que React utiliza.
                     </p>
                     <p>
                         <strong>Razones para usar npm 6.x o superior:</strong>
                     </p>
                     <ul>
                         <li>
-                            <strong>Gestión eficiente de Dependencias:</strong> Las versiones más recientes de npm mejoran la gestión de dependencias, reduciendo conflictos y facilitando la instalación de paquetes necesarios para el desarrollo de aplicaciones React.
+                            <strong>Gesti&oacute;n eficiente de Dependencias:</strong> Las versiones m&aacute;s recientes de npm mejoran la gesti&oacute;n de dependencias, reduciendo conflictos y facilitando la instalaci&oacute;n de paquetes necesarios para el desarrollo de aplicaciones React.
                         </li>
                         <li>
                             <strong>Nuevas funcionalidades:</strong> npm 6.x introduce nuevas funcionalidades y mejoras en la interfaz de línea de comandos, lo que optimiza la experiencia de desarrollo.
                         </li>
                         <li>
-                            <strong>Compatibilidad con librerias modernas:</strong> Muchas librerias modernas de desarrollo web, incluyendo Create React App, requieren versiones más recientes de npm para funcionar correctamente.
+                            <strong>Compatibilidad con librerias modernas:</strong> Muchas librerias modernas de desarrollo web, incluyendo Create React App, requieren versiones m&aacute;s recientes de npm para funcionar correctamente.
                         </li>
                         <li>
                             <strong>Mejoras de seguridad:</strong> Las versiones actuales de npm incluyen parches de seguridad y mejoras que protegen tu entorno de desarrollo contra vulnerabilidades.
@@ -258,47 +258,47 @@ npm -v
 
                     <h2>¿Rutas para tener en cuenta?</h2>
                     <p>
-                        El proyecto se <strong>ubicará en el directorio especificado</strong> durante la creación. Es fundamental seleccionar una <strong>ruta adecuada</strong> para tu proyecto React para asegurar una <strong>organización eficiente</strong> y facilitar el <strong>mantenimiento</strong> a largo plazo. A continuación, se detallan las consideraciones clave a tener en cuenta al elegir la ruta y la estructura de directorios para tu aplicación React.
+                        El proyecto se <strong>ubicar&aacute; en el directorio especificado</strong> durante la creaci&oacute;n. Es fundamental seleccionar una <strong>ruta adecuada</strong> para tu proyecto React para asegurar una <strong>organizaci&oacute;n eficiente</strong> y facilitar el <strong>mantenimiento</strong> a largo plazo. También, se detallan las consideraciones clave a tener en cuenta al elegir la ruta y la estructura de directorios para tu aplicaci&oacute;n React.
                     </p>
 
                     <p>
-                        <strong>Selección del directorio padre</strong><br />
-                        Es recomendable crear tu proyecto React en un <strong>directorio padre</strong> dedicado a tus proyectos de desarrollo. Por ejemplo, puedes tener una carpeta llamada <code>~/Proyectos</code> o <code>~/Development</code> donde almacenarás todos tus proyectos web.
+                        <strong>Selecci&oacute;n del directorio padre</strong><br />
+                        Es recomendable crear tu proyecto React en un <strong>directorio padre</strong> dedicado a tus proyectos de desarrollo. Por ejemplo, puedes tener una carpeta llamada <code>~/Proyectos</code> o <code>~/Development</code> donde almacenar&aacute;s todos tus proyectos web.
                     </p>
                     <pre><code>{`~/Proyectos/react-tutorial`}</code></pre>
 
                     <p>
                         <strong>Nombre del proyecto</strong><br />
-                        Elige un <strong>nombre descriptivo</strong> y <strong>único</strong> para tu proyecto. Esto no solo facilita la identificación del proyecto, sino que también evita conflictos de nombres si tienes múltiples proyectos.
+                        Elige un <strong>nombre descriptivo</strong> y <strong>&uacute;nico</strong> para tu proyecto. Esto no solo facilita la identificaci&oacute;n del proyecto, sino que también evita conflictos de nombres si tienes m&uacute;ltiples proyectos.
                     </p>
                     <pre><code>{`npx create-react-app mi-tutorial-react`}</code></pre>
 
                     <p>
                         <strong>Acceso y permisos</strong><br />
-                        Asegúrate de que tienes los <strong>permisos necesarios</strong> para leer y escribir en el directorio seleccionado. Esto es crucial para evitar problemas durante la instalación de dependencias y la ejecución de scripts de desarrollo.
+                        Aseg&uacute;rate de que tienes los <strong>permisos necesarios</strong> para leer y escribir en el directorio seleccionado. Esto es crucial para evitar problemas durante la instalaci&oacute;n de dependencias y la ejecuci&oacute;n de scripts de desarrollo.
                     </p>
 
                     <p>
                         <strong>Compatibilidad con sistemas de control de versiones</strong><br />
-                        Si planeas utilizar un sistema de control de versiones como <strong>Git</strong>, elige una ruta que sea <strong>compatible</strong> y fácil de gestionar. Por ejemplo, evita rutas con espacios o caracteres especiales que puedan complicar la gestión de repositorios.
+                        Si planeas utilizar un sistema de control de versiones como <strong>Git</strong>, elige una ruta que sea <strong>compatible</strong> y f&aacute;cil de gestionar. Por ejemplo, evita rutas con espacios o caracteres especiales que puedan complicar la gesti&oacute;n de repositorios.
                     </p>
                     <pre><code>{`~/Proyectos/react-tutorial`}</code></pre>
 
                     <p>
-                        <strong>Integración con librerias de desarrollo</strong><br />
-                        Considera cómo la ruta seleccionada se integrará con otras <strong>herramientas de desarrollo</strong> que utilizas, como editores de código, terminales, y sistemas de construcción. Una estructura de directorios bien organizada facilita la configuración y el uso eficiente de estas herramientas.
+                        <strong>Integraci&oacute;n con librerias de desarrollo</strong><br />
+                        Considera c&oacute;mo la ruta seleccionada se integrar&aacute; con otras <strong>herramientas de desarrollo</strong> que utilizas, como editores de c&oacute;digo, terminales, y sistemas de construcci&oacute;n. Una estructura de directorios bien organizada facilita la configuraci&oacute;n y el uso eficiente de estas herramientas.
                     </p>
 
                     <p>
-                        <strong>Organización interna del proyecto</strong><br />
-                        Dentro del directorio del proyecto, es recomendable seguir una <strong>estructura de directorios estándar</strong> para organizar tus archivos y carpetas. Esto incluye separar los componentes, estilos, assets, y otros recursos en carpetas específicas.
+                        <strong>Organizaci&oacute;n interna del proyecto</strong><br />
+                        Dentro del directorio del proyecto, es recomendable seguir una <strong>estructura de directorios est&aacute;ndar</strong> para organizar tus archivos y carpetas. Esto incluye separar los componentes, estilos, assets, y otros recursos en carpetas específicas.
                     </p>
                     <figure>
                         <img src="https://jbermejog.github.io//actividad1-dar/directorios.jpg"
                             alt="Estructura de directorios"
                             height="400" />
                         <figcaption>
-                            Fuente: Elaboración propia.
+                            Fuente: Elaboraci&oacute;n propia.
 
                         </figcaption>
                     </figure>
@@ -308,10 +308,10 @@ npm -v
                     </p>
                     <ul>
                         <li>
-                            <strong>Consistencia</strong>: Mantén una <strong>estructura de directorios consistente</strong> en todos tus proyectos para facilitar la navegación y el mantenimiento.
+                            <strong>Consistencia</strong>: Mantén una <strong>estructura de directorios consistente</strong> en todos tus proyectos para facilitar la navegaci&oacute;n y el mantenimiento.
                         </li>
                         <li>
-                            <strong>Documentación</strong>: Incluye un archivo <code>README.md</code> en la raíz del proyecto que describa la estructura de directorios y brinde información sobre cómo configurar y ejecutar la aplicación.
+                            <strong>Documentaci&oacute;n</strong>: Incluye un archivo <code>README.md</code> en la raíz del proyecto que describa la estructura de directorios y brinde informaci&oacute;n sobre c&oacute;mo configurar y ejecutar la aplicaci&oacute;n.
                         </li>
                         <li>
                             <strong>Uso de Variables de Entorno</strong>: Si tu proyecto requiere configuraciones específicas, considera utilizar archivos de variables de entorno (.env) ubicados en la raíz del proyecto para gestionar configuraciones sensibles y rutas personalizadas.
@@ -320,12 +320,12 @@ npm -v
 
                     <h2>¿Variables de entorno?</h2>
                     <p>
-                        <strong>No es necesario para este tutorial básico.</strong> En el contexto de este tutorial, que se centra en la creación y comprensión de una aplicación React sencilla, no se requieren <strong>variables de entorno</strong>. Las variables de entorno son útiles para gestionar configuraciones sensibles y personalizar comportamientos en diferentes entornos (desarrollo, producción, etc.), pero su uso puede ser complejo para principiantes.
+                        <strong>No es necesario para este tutorial b&aacute;sico.</strong> En el contexto de este tutorial, que se centra en la creaci&oacute;n y comprensi&oacute;n de una aplicaci&oacute;n React sencilla, no se requieren <strong>variables de entorno</strong>. Las variables de entorno son &uacute;tiles para gestionar configuraciones sensibles y personalizar comportamientos en diferentes entornos (desarrollo, producci&oacute;n, etc.), pero su uso puede ser complejo para principiantes.
                     </p>
 
                     <h2>¿Necesita base de datos?</h2>
                     <p>
-                        <strong>No, no es necesario para este tutorial básico.</strong> En el contexto de este tutorial, que se enfoca en la creación y comprensión de una aplicación React sencilla, no se requiere una <strong>base de datos</strong>. La aplicación se centrará en la construcción de la interfaz de usuario y la gestión del estado local, sin necesidad de almacenar o recuperar datos persistentes.
+                        <strong>No, no es necesario para este tutorial b&aacute;sico.</strong> En el contexto de este tutorial, que se enfoca en la creaci&oacute;n y comprensi&oacute;n de una aplicaci&oacute;n React sencilla, no se requiere una <strong>base de datos</strong>. La aplicaci&oacute;n se centrar&aacute; en la construcci&oacute;n de la interfaz de usuario y la gesti&oacute;n del estado local, sin necesidad de almacenar o recuperar datos persistentes.
                     </p>
 
                 </div>
@@ -337,55 +337,55 @@ npm -v
             <section id="primeros-pasos" className="w3-row w3-padding-64">
                 <div className="w3-twothird w3-container">
                     <h1 className="w3-text-teal">Primeros pasos</h1>
-                    <h2>¿Cómo realizar una primera aproximación “Hola Mundo”?</h2>
+                    <h2>¿C&oacute;mo realizar una primera aproximaci&oacute;n “Hola Mundo”?</h2>
                     <p>
-                        Realizar una primera aproximación en React es una excelente manera de familiarizarse con la <strong>creación de componentes</strong>, la <strong>gestión del estado</strong>, y la <strong>renderización</strong> de contenido dinámico. A continuación, se detallan los pasos necesarios para crear una aplicación React básica que muestre el mensaje "Hola Mundo".
+                        Realizar una primera aproximaci&oacute;n en React es una excelente manera de familiarizarse con la <strong>creaci&oacute;n de componentes</strong>, la <strong>gesti&oacute;n del estado</strong>, y la <strong>renderizaci&oacute;n</strong> de contenido din&aacute;mico. También, se detallan los pasos necesarios para crear una aplicaci&oacute;n React b&aacute;sica que muestre el mensaje "Hola Mundo".
                     </p>
-                    <p><strong>Iniciar la aplicación con <code>npm start</code></strong>.
-                        Una vez creada la aplicación React utilizando <strong>Create React App</strong>, el siguiente paso es iniciar el servidor de desarrollo para ver la aplicación en acción. Este servidor soporta el <strong>hot reloading</strong>, lo que significa que cualquier cambio realizado en el código se reflejará automáticamente en el navegador sin necesidad de recargar la página manualmente.
+                    <p><strong>Iniciar la aplicaci&oacute;n con <code>npm start</code></strong>.
+                        Una vez creada la aplicaci&oacute;n React utilizando <strong>Create React App</strong>, el siguiente paso es iniciar el servidor de desarrollo para ver la aplicaci&oacute;n en acci&oacute;n. Este servidor soporta el <strong>hot reloading</strong>, lo que significa que cualquier cambio realizado en el c&oacute;digo se reflejar&aacute; autom&aacute;ticamente en el navegador sin necesidad de recargar la p&aacute;gina manualmente.
                     </p>
                     <pre><code>{`npm start`}</code></pre>
                     <p>
-                        Al ejecutar este comando, el servidor de desarrollo iniciará y abrirá automáticamente la aplicación en tu navegador predeterminado en <strong>http://localhost:3000</strong>. Verás la página de inicio predeterminada de React.
+                        Al ejecutar este comando, el servidor de desarrollo iniciar&aacute; y abrir&aacute; autom&aacute;ticamente la aplicaci&oacute;n en tu navegador predeterminado en <strong>http://localhost:3000</strong>. Ver&aacute;s la p&aacute;gina de inicio predeterminada de React.
                     </p>
 
                     <p><strong>Modificar el componente <code>App.js</code> para mostrar "Hola Mundo"</strong>.</p>
                     <p>
-                        El siguiente paso es editar el archivo <code>App.js</code> para cambiar el contenido que se muestra en la página. Por defecto, <code>Create React App</code> genera una plantilla con un logotipo de React y algunos enlaces. Vamos a simplificarlo para mostrar únicamente el mensaje "Hola Mundo".
+                        El siguiente paso es editar el archivo <code>App.js</code> para cambiar el contenido que se muestra en la p&aacute;gina. Por defecto, <code>Create React App</code> genera una plantilla con un logotipo de React y algunos enlaces. Vamos a simplificarlo para mostrar &uacute;nicamente el mensaje "Hola Mundo".
                     </p>
                     <img src="https://jbermejog.github.io//actividad1-dar/ejemplo1.png" alt="Ejemplo de Hola Mundo en React" />
                 </div>
             </section>
 
-            {/* Utilización del Framework */}
+            {/* Utilizaci&oacute;n del Framework */}
             <section id="utilizacion" className="w3-row w3-padding-64">
                 <div className="w3-twothird w3-container">
-                    <h1 className="w3-text-teal">Utilización del Framework</h1>
-                    <h2>¿Cómo empezar a crear una aplicación base?</h2>
+                    <h1 className="w3-text-teal">Utilizaci&oacute;n del Framework</h1>
+                    <h2>¿C&oacute;mo empezar a crear una aplicaci&oacute;n base?</h2>
                     <p>
-                        Iniciar el desarrollo de una aplicación React sólida y escalable requiere una planificación adecuada y la implementación de buenas prácticas desde el principio. A continuación, se detallan los pasos esenciales para crear una aplicación base efectiva, enfocándose en la creación de componentes reutilizables, la organización de la estructura de directorios y la utilización de rutas para la navegación entre diferentes secciones.
+                        Iniciar el desarrollo de una aplicaci&oacute;n React s&oacute;lida y escalable requiere una planificaci&oacute;n adecuada y la implementaci&oacute;n de buenas pr&aacute;cticas desde el principio. También, se detallan los pasos esenciales para crear una aplicaci&oacute;n base efectiva, enfoc&aacute;ndose en la creaci&oacute;n de componentes reutilizables, la organizaci&oacute;n de la estructura de directorios y la utilizaci&oacute;n de rutas para la navegaci&oacute;n entre diferentes secciones.
                     </p>
 
                     <p>
                         <strong>Crear componentes reutilizables.</strong><br />
-                        Una de las principales ventajas de React es su arquitectura basada en componentes, lo que permite crear <strong>componentes reutilizables</strong> que encapsulan tanto la lógica como la presentación. Esto no solo mejora la <strong>mantenibilidad</strong> del código, sino que también agiliza el desarrollo al evitar la duplicación de código.
+                        Una de las principales ventajas de React es su arquitectura basada en componentes, lo que permite crear <strong>componentes reutilizables</strong> que encapsulan tanto la l&oacute;gica como la presentaci&oacute;n. Esto no solo mejora la <strong>mantenibilidad</strong> del c&oacute;digo, sino que también agiliza el desarrollo al evitar la duplicaci&oacute;n de c&oacute;digo.
                     </p>
                     <p>
                         <strong>Beneficios de los componentes reutilizables:</strong>
                     </p>
                     <ul>
-                        <li><strong>Consistencia:</strong> Garantizan una apariencia y comportamiento uniformes en toda la aplicación.</li>
-                        <li><strong>Eficiencia:</strong> Reducen el tiempo de desarrollo al permitir la reutilización de código existente.</li>
+                        <li><strong>Consistencia:</strong> Garantizan una apariencia y comportamiento uniformes en toda la aplicaci&oacute;n.</li>
+                        <li><strong>Eficiencia:</strong> Reducen el tiempo de desarrollo al permitir la reutilizaci&oacute;n de c&oacute;digo existente.</li>
                         <li><strong>Facilidad de Mantenimiento:</strong> Simplifican las actualizaciones y mejoras, ya que los cambios en un componente se reflejan en todas las instancias donde se utiliza.</li>
                     </ul>
                     <p>
                         <strong>Ejemplo de un componente reutilizable:</strong>
                         <br />
-                        A continuación, se muestra cómo crear un componente <code>Button</code> que puede ser utilizado en diferentes partes de la aplicación con distintas propiedades.
+                        Se muestra c&oacute;mo crear un componente <code>Button</code> que puede ser utilizado en diferentes partes de la aplicaci&oacute;n con distintas propiedades.
                     </p>
                     <pre><code>{`
 import React from 'react';
-import './Button.css'; // Archivo de estilos para el botón
+import './Button.css'; // Archivo de estilos para el bot&oacute;n
 
 const Button = ({ onClick, children, type = 'button' }) => {
   return (
@@ -424,24 +424,24 @@ export default App;
 
                     <p>
                         <strong>Organizar la estructura de directorios.</strong><br />
-                        Una <strong>estructura de directorios bien organizada</strong> es fundamental para la escalabilidad y el mantenimiento de la aplicación. Facilita la navegación por el código, mejora la colaboración entre desarrolladores y simplifica la identificación de componentes y recursos.
+                        Una <strong>estructura de directorios bien organizada</strong> es fundamental para la escalabilidad y el mantenimiento de la aplicaci&oacute;n. Facilita la navegaci&oacute;n por el c&oacute;digo, mejora la colaboraci&oacute;n entre desarrolladores y simplifica la identificaci&oacute;n de componentes y recursos.
                     </p>
                     <p>
-                        <strong>Recomendaciones para la organización de directorios:</strong>
+                        <strong>Recomendaciones para la organizaci&oacute;n de directorios:</strong>
                     </p>
                     <ul>
                         <li>
-                            <strong>src/</strong>: Contiene todo el código fuente de la aplicación.
+                            <strong>src/</strong>: Contiene todo el c&oacute;digo fuente de la aplicaci&oacute;n.
                             <ul>
                                 <li><strong>components/</strong>: Almacena los componentes reutilizables.</li>
-                                <li><strong>pages/</strong>: Contiene los componentes que representan páginas completas.</li>
-                                <li><strong>assets/</strong>: Incluye recursos estáticos como imágenes, estilos y fuentes.</li>
+                                <li><strong>pages/</strong>: Contiene los componentes que representan p&aacute;ginas completas.</li>
+                                <li><strong>assets/</strong>: Incluye recursos est&aacute;ticos como im&aacute;genes, estilos y fuentes.</li>
                                 <li><strong>utils/</strong>: Guarda funciones utilitarias y helpers.</li>
-                                <li><strong>services/</strong>: Almacena lógica relacionada con llamadas a APIs y servicios externos.</li>
+                                <li><strong>services/</strong>: Almacena l&oacute;gica relacionada con llamadas a APIs y servicios externos.</li>
                             </ul>
                         </li>
-                        <li><strong>public/</strong>: Contiene archivos públicos como <code>index.html</code> y favicon.</li>
-                        <li><strong>tests/</strong>: Almacena pruebas unitarias y de integración.</li>
+                        <li><strong>public/</strong>: Contiene archivos p&uacute;blicos como <code>index.html</code> y favicon.</li>
+                        <li><strong>tests/</strong>: Almacena pruebas unitarias y de integraci&oacute;n.</li>
                     </ul>
                     <p>
                         <strong>Ejemplo de estructura de directorios:</strong>
@@ -477,17 +477,17 @@ react-app/
                         <strong>Beneficios de una estructura organizada:</strong>
                     </p>
                     <ul>
-                        <li><strong>Mantenibilidad:</strong> facilita la localización y actualización de componentes y archivos.</li>
+                        <li><strong>Mantenibilidad:</strong> facilita la localizaci&oacute;n y actualizaci&oacute;n de componentes y archivos.</li>
                         <li><strong>Escalabilidad:</strong> permite agregar nuevas funcionalidades sin desorganizar el proyecto.</li>
-                        <li><strong>Colaboración:</strong> simplifica el trabajo en equipo al establecer una convención clara para la organización del código.</li>
+                        <li><strong>Colaboraci&oacute;n:</strong> simplifica el trabajo en equipo al establecer una convenci&oacute;n clara para la organizaci&oacute;n del c&oacute;digo.</li>
                     </ul>
 
                     <p>
                         <strong>Utilizar rutas para navegar entre diferentes secciones.</strong><br />
-                        La <strong>navegación entre diferentes secciones</strong> de la aplicación es esencial para proporcionar una experiencia de usuario fluida y coherente. React Router es una de las herramientas más populares para manejar las rutas en aplicaciones React, permitiendo definir rutas dinámicas y anidadas de manera sencilla.
+                        La <strong>navegaci&oacute;n entre diferentes secciones</strong> de la aplicaci&oacute;n es esencial para proporcionar una experiencia de usuario fluida y coherente. React Router es una de las herramientas m&aacute;s populares para manejar las rutas en aplicaciones React, permitiendo definir rutas din&aacute;micas y anidadas de manera sencilla.
                     </p>
 
-                    <strong>Pasos para implementar la navegación con React Router:</strong><br />
+                    <strong>Pasos para implementar la navegaci&oacute;n con React Router:</strong><br />
 
                     <p>
                         <strong>Instalar React Router:</strong><br />
@@ -526,8 +526,8 @@ export default App;
           `}</code></pre>
 
                     <p>
-                        <strong>Crear enlaces de navegación:</strong><br />
-                        En el componente <code>Navbar</code>, utiliza el componente <code>Link</code> de React Router para crear enlaces que permitan a los usuarios navegar entre las diferentes páginas.
+                        <strong>Crear enlaces de navegaci&oacute;n:</strong><br />
+                        En el componente <code>Navbar</code>, utiliza el componente <code>Link</code> de React Router para crear enlaces que permitan a los usuarios navegar entre las diferentes p&aacute;ginas.
                     </p>
                     <pre><code>{`
 import React from 'react';
@@ -537,7 +537,7 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h2>Mi Aplicación React</h2>
+      <h2>Mi Aplicaci&oacute;n React</h2>
       <ul className="nav-links">
         <li>
           <Link to="/">Inicio</Link>
@@ -557,8 +557,8 @@ export default Navbar;
           `}</code></pre>
 
                     <p>
-                        <strong>Crear componentes de página:</strong><br />
-                        Crea componentes para cada sección de tu aplicación, como <code>Home.js</code>, <code>About.js</code> y <code>Contact.js</code>, que se renderizarán cuando se accedan a sus respectivas rutas.
+                        <strong>Crear componentes de p&aacute;gina:</strong><br />
+                        Crea componentes para cada secci&oacute;n de tu aplicaci&oacute;n, como <code>Home.js</code>, <code>About.js</code> y <code>Contact.js</code>, que se renderizar&aacute;n cuando se accedan a sus respectivas rutas.
                     </p>
 
                     <pre><code>{`
@@ -569,7 +569,7 @@ const Home = () => {
   return (
     <div className="page">
       <h1>Inicio</h1>
-      <p>Bienvenido a la página de inicio de mi aplicación React.</p>
+      <p>Bienvenido a la p&aacute;gina de inicio de mi aplicaci&oacute;n React.</p>
     </div>
   );
 };
@@ -583,7 +583,7 @@ const About = () => {
   return (
     <div className="page">
       <h1>Acerca de</h1>
-      <p>Esta es la página de información sobre nuestra aplicación.</p>
+      <p>Esta es la p&aacute;gina de informaci&oacute;n sobre nuestra aplicaci&oacute;n.</p>
     </div>
   );
 };
@@ -610,18 +610,18 @@ export default Contact;
                     </p>
                     <ul>
                         <li>
-                            <strong>Rutas Anidadas:</strong> Puedes definir rutas anidadas para manejar sub-secciones dentro de una página principal.
+                            <strong>Rutas Anidadas:</strong> Puedes definir rutas anidadas para manejar sub-secciones dentro de una p&aacute;gina principal.
                         </li>
                         <li>
-                            <strong>Protección de Rutas:</strong> Implementa rutas protegidas que requieran autenticación para acceder a ciertas secciones de la aplicación.
+                            <strong>Protecci&oacute;n de Rutas:</strong> Implementa rutas protegidas que requieran autenticaci&oacute;n para acceder a ciertas secciones de la aplicaci&oacute;n.
                         </li>
                         <li>
-                            <strong>Lazy Loading:</strong> Optimiza el rendimiento de tu aplicación cargando componentes de manera diferida cuando se acceden a sus rutas.
+                            <strong>Lazy Loading:</strong> Optimiza el rendimiento de tu aplicaci&oacute;n cargando componentes de manera diferida cuando se acceden a sus rutas.
                         </li>
                     </ul>
 
 
-                    <h2>¿Cómo visualizar los resultados de la ejecución?</h2>
+                    <h2>¿C&oacute;mo visualizar los resultados de la ejecuci&oacute;n?</h2>
                     <p>
                         Utilizando el servidor de desarrollo iniciado con <code>npm start</code>, que soporta hot reloading para ver cambios en tiempo real.
                     </p>
@@ -629,31 +629,31 @@ export default Contact;
 
             </section>
 
-            {/* Explicación del Funcionamiento del Framework */}
+            {/* Explicaci&oacute;n del Funcionamiento del Framework */}
             <section id="explicacion" className="w3-row w3-padding-64">
                 <div className="w3-twothird w3-container">
-                    <h1 className="w3-text-teal">Explicación del funcionamiento del Framework</h1>
+                    <h1 className="w3-text-teal">Explicaci&oacute;n del funcionamiento del Framework</h1>
                     <p>
-                        React es un <strong>framework</strong> de <strong>JavaScript</strong> desarrollado por Facebook que se utiliza para construir interfaces de usuario interactivas y dinámicas. A diferencia de otros frameworks que actúan directamente sobre el <strong>DOM</strong> (Document Object Model), React introduce conceptos innovadores que optimizan la <strong>renderización</strong> y el <strong>rendimiento</strong> de las aplicaciones web.
+                        React es un <strong>framework</strong> de <strong>JavaScript</strong> desarrollado por Facebook que se utiliza para construir interfaces de usuario interactivas y din&aacute;micas. A diferencia de otros frameworks que act&uacute;an directamente sobre el <strong>DOM</strong> (Document Object Model), React introduce conceptos innovadores que optimizan la <strong>renderizaci&oacute;n</strong> y el <strong>rendimiento</strong> de las aplicaciones web.
                     </p>
-                    <h3>¿Actúa sobre páginas, ficheros, secciones…?</h3>
+                    <h3>¿Act&uacute;a sobre p&aacute;ginas, ficheros, secciones…?</h3>
                     <p>
-                        React no actúa directamente sobre <strong>páginas</strong>, <strong>ficheros</strong> o <strong>secciones</strong> de manera tradicional. En su lugar, React utiliza un enfoque basado en <strong>componentes</strong>, que son bloques de construcción independientes y reutilizables que conforman la interfaz de usuario de una aplicación. A continuación, se detallan los aspectos clave de cómo React interactúa con diferentes partes de una aplicación:
+                        React no act&uacute;a directamente sobre <strong>p&aacute;ginas</strong>, <strong>ficheros</strong> o <strong>secciones</strong> de manera tradicional. En su lugar, React utiliza un enfoque basado en <strong>componentes</strong>, que son bloques de construcci&oacute;n independientes y reutilizables que conforman la interfaz de usuario de una aplicaci&oacute;n. A continuaci&oacute;n, se detallan los aspectos clave de c&oacute;mo React interact&uacute;a con diferentes partes de una aplicaci&oacute;n:
                     </p>
 
                     <strong>Componentes:</strong>
                     <p>
-                        Los componentes son las unidades básicas de React. Cada componente encapsula su propia estructura (HTML), estilos (CSS) y lógica (JavaScript), lo que facilita su reutilización y mantenimiento. Por ejemplo, un componente <code>Header</code> puede ser utilizado en múltiples páginas sin duplicar código.
+                        Los componentes son las unidades b&aacute;sicas de React. Cada componente encapsula su propia estructura (HTML), estilos (CSS) y l&oacute;gica (JavaScript), lo que facilita su reutilizaci&oacute;n y mantenimiento. Por ejemplo, un componente <code>Header</code> puede ser utilizado en m&uacute;ltiples p&aacute;ginas sin duplicar c&oacute;digo.
                     </p>
 
                     <strong>Virtual DOM:</strong>
                     <p>
-                        React utiliza un <strong>Virtual DOM</strong>, que es una representación en memoria del DOM real. Cuando el estado de un componente cambia, React actualiza el Virtual DOM y luego compara esta nueva versión con la anterior utilizando un algoritmo eficiente. Solo las partes del DOM real que han cambiado se actualizan, lo que mejora significativamente el rendimiento de la aplicación.
+                        React utiliza un <strong>Virtual DOM</strong>, que es una representaci&oacute;n en memoria del DOM real. Cuando el estado de un componente cambia, React actualiza el Virtual DOM y luego compara esta nueva versi&oacute;n con la anterior utilizando un algoritmo eficiente. Solo las partes del DOM real que han cambiado se actualizan, lo que mejora significativamente el rendimiento de la aplicaci&oacute;n.
                     </p>
 
                     <strong>JSX (JavaScript XML):</strong>
                     <p>
-                        JSX es una extensión de sintaxis para JavaScript que permite escribir código similar a HTML dentro de archivos JavaScript. Esto facilita la creación de componentes al combinar la lógica y la presentación en un solo lugar. Por ejemplo:
+                        JSX es una extensi&oacute;n de sintaxis para JavaScript que permite escribir c&oacute;digo similar a HTML dentro de archivos JavaScript. Esto facilita la creaci&oacute;n de componentes al combinar la l&oacute;gica y la presentaci&oacute;n en un solo lugar. Por ejemplo:
                     </p>
                     <pre><code>{`
 const Welcome = () => {
@@ -668,29 +668,29 @@ const Welcome = () => {
 
                     <strong>Enrutamiento:</strong>
                     <p>
-                        Aunque React en sí mismo no maneja el enrutamiento, se suele utilizar junto con bibliotecas como <strong>React Router</strong> para gestionar la navegación entre diferentes <strong>páginas</strong> o <strong>secciones</strong> de la aplicación. Esto permite crear aplicaciones de una sola página (<em>Single Page Applications</em>, SPA) donde la navegación es rápida y fluida.
+                        Aunque React en sí mismo no maneja el enrutamiento, se suele utilizar junto con bibliotecas como <strong>React Router</strong> para gestionar la navegaci&oacute;n entre diferentes <strong>p&aacute;ginas</strong> o <strong>secciones</strong> de la aplicaci&oacute;n. Esto permite crear aplicaciones de una sola p&aacute;gina (<em>Single Page Applications</em>, SPA) donde la navegaci&oacute;n es r&aacute;pida y fluida.
                     </p>
 
 
 
-                    <h2>¿Cómo se editan/modifican los ficheros que actúan en el framework?</h2>
+                    <h2>¿C&oacute;mo se editan/modifican los ficheros que act&uacute;an en el framework?</h2>
                     <p>
-                        Para <strong>editar</strong> y <strong>modificar</strong> los ficheros que conforman una aplicación React, es fundamental trabajar directamente con los archivos <strong>JSX</strong> y <strong>CSS</strong> ubicados en el directorio <code>src/</code>. Este proceso permite personalizar la interfaz de usuario y la lógica de la aplicación de manera eficiente. A continuación, se detallan los pasos y consideraciones clave para realizar estas modificaciones.
+                        Para <strong>editar</strong> y <strong>modificar</strong> los ficheros que conforman una aplicaci&oacute;n React, es fundamental trabajar directamente con los archivos <strong>JSX</strong> y <strong>CSS</strong> ubicados en el directorio <code>src/</code>. Este proceso permite personalizar la interfaz de usuario y la l&oacute;gica de la aplicaci&oacute;n de manera eficiente. También, se detallan los pasos y consideraciones clave para realizar estas modificaciones.
                     </p>
 
-                    <strong>Configurar un Editor de Código Adecuado</strong>
+                    <strong>Configurar un Editor de C&oacute;digo Adecuado</strong>
                     <p>
-                        Utilizar un <strong>editor de código</strong> potente y eficiente facilita la edición de archivos JSX y CSS. Algunos de los editores más populares incluyen:
+                        Utilizar un <strong>editor de c&oacute;digo</strong> potente y eficiente facilita la edici&oacute;n de archivos JSX y CSS. Algunos de los editores m&aacute;s populares incluyen:
                     </p>
                     <ul>
-                        <li><strong>Visual Studio Code (VSCode):</strong> Ofrece extensiones específicas para React, soporte para JSX, y herramientas de depuración integradas.</li>
+                        <li><strong>Visual Studio Code (VSCode):</strong> Ofrece extensiones específicas para React, soporte para JSX, y herramientas de depuraci&oacute;n integradas.</li>
                         <li><strong>Sublime Text:</strong> Ligero y personalizable con paquetes para mejorar el desarrollo en React.</li>
-                        <li><strong>Atom:</strong> Editor de código de GitHub con paquetes comunitarios para React y JSX.</li>
+                        <li><strong>Atom:</strong> Editor de c&oacute;digo de GitHub con paquetes comunitarios para React y JSX.</li>
                     </ul>
 
                     <strong>Editar los Archivos JSX</strong>
                     <p>
-                        Los archivos <strong>JSX</strong> son la columna vertebral de las aplicaciones React, ya que definen la estructura y la lógica de los componentes. Para modificar la interfaz de usuario, sigue estos pasos:
+                        Los archivos <strong>JSX</strong> son la columna vertebral de las aplicaciones React, ya que definen la estructura y la l&oacute;gica de los componentes. Para modificar la interfaz de usuario, sigue estos pasos:
                     </p>
                     <p>
                         <strong>Pasos para editar archivos JSX:</strong>
@@ -701,7 +701,7 @@ const Welcome = () => {
                         <li><strong>Realizar cambios en el JSX:</strong> Puedes agregar, eliminar o modificar elementos HTML y componentes personalizados.</li>
                     </ul>
                     <p>
-                        <strong>Ejemplo de modificación en <code>App.js</code>:</strong>
+                        <strong>Ejemplo de modificaci&oacute;n en <code>App.js</code>:</strong>
                     </p>
                     <pre><code>{`
 import React from 'react';
@@ -713,7 +713,7 @@ function App() {
     <div className="App">
       <Navbar />
       <h1>¡Hola Mundo!</h1>
-      <p>Bienvenido a tu primera aplicación React.</p>
+      <p>Bienvenido a tu primera aplicaci&oacute;n React.</p>
     </div>
   );
 }
@@ -721,13 +721,13 @@ function App() {
 export default App;
 `}</code></pre>
                     <p>
-                        <strong>Explicación del Código:</strong>
+                        <strong>Explicaci&oacute;n del C&oacute;digo:</strong>
                     </p>
                     <ul>
                         <li><strong>Importaciones:</strong> Importamos React, los estilos de <code>App.css</code> y el componente <code>Navbar</code>.</li>
-                        <li><strong>Función App:</strong> Definimos una función llamada <code>App</code> que retorna el JSX que representa la estructura de nuestra interfaz de usuario.</li>
-                        <li><strong>Renderización del Mensaje:</strong> Dentro del <code>div</code> con la clase <code>App</code>, incluimos un encabezado <code>&lt;h1&gt;</code> y un párrafo <code>&lt;p&gt;</code> con el mensaje "¡Hola Mundo!" y una bienvenida.</li>
-                        <li><strong>Exportación:</strong> Exportamos el componente <code>App</code> para que pueda ser utilizado en otras partes de la aplicación.</li>
+                        <li><strong>Funci&oacute;n App:</strong> Definimos una funci&oacute;n llamada <code>App</code> que retorna el JSX que representa la estructura de nuestra interfaz de usuario.</li>
+                        <li><strong>Renderizaci&oacute;n del Mensaje:</strong> Dentro del <code>div</code> con la clase <code>App</code>, incluimos un encabezado <code>&lt;h1&gt;</code> y un p&aacute;rrafo <code>&lt;p&gt;</code> con el mensaje "¡Hola Mundo!" y una bienvenida.</li>
+                        <li><strong>Exportaci&oacute;n:</strong> Exportamos el componente <code>App</code> para que pueda ser utilizado en otras partes de la aplicaci&oacute;n.</li>
                     </ul>
 
                     <strong>Editar los Archivos CSS</strong>
@@ -740,10 +740,10 @@ export default App;
                     <ul>
                         <li><strong>Navegar al directorio <code>src/</code>:</strong> Los archivos de estilos suelen estar organizados dentro de carpetas como <code>src/styles/</code> o directamente en <code>src/</code>.</li>
                         <li><strong>Abrir el archivo CSS correspondiente:</strong> Por ejemplo, <code>App.css</code> contiene los estilos para el componente <code>App</code>.</li>
-                        <li><strong>Realizar cambios en los estilos:</strong> Puedes modificar propiedades CSS para cambiar colores, fuentes, márgenes, etc.</li>
+                        <li><strong>Realizar cambios en los estilos:</strong> Puedes modificar propiedades CSS para cambiar colores, fuentes, m&aacute;rgenes, etc.</li>
                     </ul>
                     <p>
-                        <strong>Ejemplo de modificación en <code>App.css</code>:</strong>
+                        <strong>Ejemplo de modificaci&oacute;n en <code>App.css</code>:</strong>
                     </p>
                     <pre><code>{`
 /* App.css */
@@ -763,58 +763,58 @@ p {
 }
 `}</code></pre>
                     <p>
-                        <strong>Explicación del Código:</strong>
+                        <strong>Explicaci&oacute;n del C&oacute;digo:</strong>
                     </p>
                     <ul>
-                        <li><strong>.App:</strong> Define estilos generales para el componente <code>App</code>, incluyendo alineación de texto, color de fondo y padding.</li>
+                        <li><strong>.App:</strong> Define estilos generales para el componente <code>App</code>, incluyendo alineaci&oacute;n de texto, color de fondo y padding.</li>
                         <li><strong>h1:</strong> Estiliza el encabezado principal con un color específico.</li>
-                        <li><strong>p:</strong> Establece el tamaño de fuente y el color para los párrafos dentro del componente.</li>
+                        <li><strong>p:</strong> Establece el tamaño de fuente y el color para los p&aacute;rrafos dentro del componente.</li>
                     </ul>
 
-                    <strong>Buenas Prácticas al Editar JSX y CSS</strong>
+                    <strong>Buenas Pr&aacute;cticas al Editar JSX y CSS</strong>
                     <p>
-                        Para mantener un código limpio y eficiente, considera las siguientes buenas prácticas:
+                        Para mantener un c&oacute;digo limpio y eficiente, considera las siguientes buenas pr&aacute;cticas:
                     </p>
                     <ul>
                         <li><strong>Mantenibilidad:</strong> Mantén los componentes pequeños y enfocados en una sola responsabilidad.</li>
-                        <li><strong>Reutilización:</strong> Crea componentes reutilizables para evitar la duplicación de código.</li>
-                        <li><strong>Consistencia:</strong> Sigue una convención de nombres consistente para archivos y clases CSS.</li>
+                        <li><strong>Reutilizaci&oacute;n:</strong> Crea componentes reutilizables para evitar la duplicaci&oacute;n de c&oacute;digo.</li>
+                        <li><strong>Consistencia:</strong> Sigue una convenci&oacute;n de nombres consistente para archivos y clases CSS.</li>
                         <li><strong>Modularidad:</strong> Divide los estilos en archivos CSS separados para cada componente si es necesario.</li>
-                        <li><strong>Uso de Preprocesadores:</strong> Considera utilizar preprocesadores como SASS o LESS para facilitar la gestión de estilos complejos.</li>
+                        <li><strong>Uso de Preprocesadores:</strong> Considera utilizar preprocesadores como SASS o LESS para facilitar la gesti&oacute;n de estilos complejos.</li>
                     </ul>
                     <strong>Herramientas y Extensiones Recomendadas</strong>
                     <p>
                         Para mejorar tu flujo de trabajo al editar JSX y CSS, puedes utilizar las siguientes herramientas y extensiones:
                     </p>
                     <ul>
-                        <li><strong>ESLint:</strong> Herramienta de análisis de código para identificar y corregir problemas en JavaScript y JSX.</li>
-                        <li><strong>Prettier:</strong> Formateador de código que asegura una apariencia consistente en todo el proyecto.</li>
-                        <li><strong>React Developer Tools:</strong> Extensión para navegadores que permite inspeccionar la jerarquía de componentes y el estado en tiempo real.</li>
+                        <li><strong>ESLint:</strong> Herramienta de an&aacute;lisis de c&oacute;digo para identificar y corregir problemas en JavaScript y JSX.</li>
+                        <li><strong>Prettier:</strong> Formateador de c&oacute;digo que asegura una apariencia consistente en todo el proyecto.</li>
+                        <li><strong>React Developer Tools:</strong> Extensi&oacute;n para navegadores que permite inspeccionar la jerarquía de componentes y el estado en tiempo real.</li>
                         <li><strong>CSS Modules:</strong> Permiten el uso de estilos locales a componentes, evitando conflictos de nombres de clases.</li>
                     </ul>
 
-                    <h2>¿Cómo se referencian los ficheros creados desde otras aplicaciones?</h2>
+                    <h2>¿C&oacute;mo se referencian los ficheros creados desde otras aplicaciones?</h2>
                     <p>
-                        Integrar <strong>ficheros</strong> creados en otras aplicaciones dentro de tu proyecto React puede ampliar significativamente la funcionalidad y reutilización de componentes existentes. Este proceso implica referenciar y utilizar módulos, componentes o recursos que han sido desarrollados en proyectos separados. A continuación, se detallan los métodos y consideraciones clave para lograr esta integración de manera efectiva.
+                        Integrar <strong>ficheros</strong> creados en otras aplicaciones dentro de tu proyecto React puede ampliar significativamente la funcionalidad y reutilizaci&oacute;n de componentes existentes. Este proceso implica referenciar y utilizar m&oacute;dulos, componentes o recursos que han sido desarrollados en proyectos separados. También, se detallan los métodos y consideraciones clave para lograr esta integraci&oacute;n de manera efectiva.
                     </p>
 
                     <strong>Publicar y Consumir Paquetes NPM</strong>
                     <p>
-                        Una de las formas más comunes de compartir y referenciar ficheros entre diferentes aplicaciones es a través de la publicación de <strong>paquetes NPM</strong>. Esto permite que los componentes, utilidades o bibliotecas desarrolladas en una aplicación sean fácilmente consumidas por otras aplicaciones.
+                        Una de las formas m&aacute;s comunes de compartir y referenciar ficheros entre diferentes aplicaciones es a través de la publicaci&oacute;n de <strong>paquetes NPM</strong>. Esto permite que los componentes, utilidades o bibliotecas desarrolladas en una aplicaci&oacute;n sean f&aacute;cilmente consumidas por otras aplicaciones.
                     </p>
                     <p>
                         <strong>Pasos para publicar y consumir paquetes NPM:</strong>
                     </p>
                     <ul>
-                        <li><strong>Crear un Paquete NPM:</strong> Desarrolla tus componentes o módulos y asegúrate de que estén correctamente configurados con un archivo <code>package.json</code>.</li>
+                        <li><strong>Crear un Paquete NPM:</strong> Desarrolla tus componentes o m&oacute;dulos y aseg&uacute;rate de que estén correctamente configurados con un archivo <code>package.json</code>.</li>
                         <li><strong>Publicar el Paquete:</strong> Utiliza el comando <code>npm publish</code> para subir tu paquete al registro de NPM.</li>
-                        <li><strong>Instalar el Paquete en la Aplicación Destino:</strong> En la otra aplicación, ejecuta <code>npm install nombre-del-paquete</code> para agregarlo como dependencia.</li>
+                        <li><strong>Instalar el Paquete en la Aplicaci&oacute;n Destino:</strong> En la otra aplicaci&oacute;n, ejecuta <code>npm install nombre-del-paquete</code> para agregarlo como dependencia.</li>
                     </ul>
                     <p>
                         <strong>Ejemplo de uso:</strong>
                     </p>
                     <pre><code>{`
-    // Instalación del paquete
+    // Instalaci&oacute;n del paquete
     npm install mi-paquete-react
 
     // Uso en un componente React
@@ -832,24 +832,24 @@ p {
     export default App;
     `}</code></pre>
                     <p>
-                        <strong>Explicación del Código:</strong>
+                        <strong>Explicaci&oacute;n del C&oacute;digo:</strong>
                     </p>
                     <ul>
-                        <li><strong>Instalación del Paquete:</strong> Se instala el paquete publicado utilizando <code>npm install</code>.</li>
-                        <li><strong>Importación del Componente:</strong> Se importa el componente <code>MiComponente</code> desde el paquete instalado.</li>
+                        <li><strong>Instalaci&oacute;n del Paquete:</strong> Se instala el paquete publicado utilizando <code>npm install</code>.</li>
+                        <li><strong>Importaci&oacute;n del Componente:</strong> Se importa el componente <code>MiComponente</code> desde el paquete instalado.</li>
                         <li><strong>Uso del Componente:</strong> El componente importado se utiliza dentro del componente <code>App</code>.</li>
                     </ul>
 
-                    <strong>Referenciar Componentes mediante Enlaces Simbólicos (Symlinks)</strong>
+                    <strong>Referenciar Componentes mediante Enlaces Simb&oacute;licos (Symlinks)</strong>
                     <p>
-                        Durante el desarrollo, es posible que desees trabajar con paquetes locales sin publicarlos en NPM. Para ello, puedes utilizar enlaces simbólicos con el comando <code>npm link</code>.
+                        Durante el desarrollo, es posible que desees trabajar con paquetes locales sin publicarlos en NPM. Para ello, puedes utilizar enlaces simb&oacute;licos con el comando <code>npm link</code>.
                     </p>
                     <p>
                         <strong>Pasos para crear y usar symlinks:</strong>
                     </p>
                     <ul>
-                        <li><strong>Crear el Enlace Simbólico:</strong> En el directorio del paquete que deseas compartir, ejecuta <code>npm link</code>.</li>
-                        <li><strong>Enlazar en la Aplicación Destino:</strong> En la otra aplicación, ejecuta <code>npm link nombre-del-paquete</code> para crear un enlace simbólico.</li>
+                        <li><strong>Crear el enlace simb&oacute;lico:</strong> En el directorio del paquete que deseas compartir, ejecuta <code>npm link</code>.</li>
+                        <li><strong>Enlazar en la aplicaci&oacute;n destino:</strong> En la otra aplicaci&oacute;n, ejecuta <code>npm link nombre-del-paquete</code> para crear un enlace simb&oacute;lico.</li>
                     </ul>
                     <p>
                         <strong>Ejemplo de uso:</strong>
@@ -859,7 +859,7 @@ p {
     cd mi-paquete-react
     npm link
 
-    // En la aplicación destino
+    // En la aplicaci&oacute;n destino
     cd mi-aplicacion
     npm link mi-paquete-react
 
@@ -878,36 +878,36 @@ p {
     export default App;
     `}</code></pre>
                     <p>
-                        <strong>Explicación del Código:</strong>
+                        <strong>Explicaci&oacute;n del C&oacute;digo:</strong>
                     </p>
                     <ul>
-                        <li><strong>Crear el Enlace Simbólico:</strong> Se utiliza <code>npm link</code> en el paquete para hacerlo disponible globalmente.</li>
-                        <li><strong>Enlazar en la Aplicación Destino:</strong> Se crea un enlace simbólico en la aplicación destino que apunta al paquete local.</li>
+                        <li><strong>Crear el Enlace Simb&oacute;lico:</strong> Se utiliza <code>npm link</code> en el paquete para hacerlo disponible globalmente.</li>
+                        <li><strong>Enlazar en la Aplicaci&oacute;n Destino:</strong> Se crea un enlace simb&oacute;lico en la aplicaci&oacute;n destino que apunta al paquete local.</li>
                         <li><strong>Uso del Componente:</strong> El componente importado se utiliza dentro del componente <code>App</code>.</li>
                     </ul>
 
-                    <strong>Importación de Componentes desde Repositorios Git</strong>
+                    <strong>Importaci&oacute;n de Componentes desde Repositorios Git</strong>
                     <p>
-                        Otra forma de referenciar ficheros creados en otras aplicaciones es importarlos directamente desde repositorios Git. Esto es útil cuando deseas incluir componentes específicos sin publicarlos en NPM.
+                        Otra forma de referenciar ficheros creados en otras aplicaciones es importarlos directamente desde repositorios Git. Esto es &uacute;til cuando deseas incluir componentes específicos sin publicarlos en NPM.
                     </p>
                     <p>
                         <strong>Pasos para importar desde Git:</strong>
                     </p>
                     <ul>
-                        <li><strong>Especificar la URL del Repositorio:</strong> En el archivo <code>package.json</code> de tu aplicación, agrega la dependencia con la URL del repositorio.</li>
+                        <li><strong>Especificar la URL del Repositorio:</strong> En el archivo <code>package.json</code> de tu aplicaci&oacute;n, agrega la dependencia con la URL del repositorio.</li>
                     </ul>
                     <p>
                         <strong>Ejemplo de uso:</strong>
                     </p>
                     <pre><code>{`
-    // package.json de la aplicación destino
+    // package.json de la aplicaci&oacute;n destino
     {
       "dependencies": {
         "mi-paquete-react": "git+https://github.com/usuario/mi-paquete-react.git"
       }
     }
 
-    // Instalación de dependencias
+    // Instalaci&oacute;n de dependencias
     npm install
 
     // Uso en un componente React
@@ -925,24 +925,24 @@ p {
     export default App;
     `}</code></pre>
                     <p>
-                        <strong>Explicación del Código:</strong>
+                        <strong>Explicaci&oacute;n del C&oacute;digo:</strong>
                     </p>
                     <ul>
-                        <li><strong>Especificar la URL del Repositorio:</strong> Se agrega la dependencia en <code>package.json</code> con la URL del repositorio Git.</li>
-                        <li><strong>Instalación de Dependencias:</strong> Se ejecuta <code>npm install</code> para descargar e instalar el paquete desde Git.</li>
-                        <li><strong>Uso del Componente:</strong> El componente importado se utiliza dentro del componente <code>App</code>.</li>
+                        <li><strong>Especificar la URL del repositorio:</strong> Se agrega la dependencia en <code>package.json</code> con la URL del repositorio Git.</li>
+                        <li><strong>Instalaci&oacute;n de dependencias:</strong> Se ejecuta <code>npm install</code> para descargar e instalar el paquete desde Git.</li>
+                        <li><strong>Uso del componente:</strong> El componente importado se utiliza dentro del componente <code>App</code>.</li>
                     </ul>
 
-                    <strong>Compartir Recursos Estáticos y Medios</strong>
+                    <strong>Compartir recursos est&aacute;ticos y medios</strong>
                     <p>
-                        Además de componentes y módulos de JavaScript, es común compartir recursos estáticos como imágenes, fuentes y estilos CSS entre diferentes aplicaciones.
+                        Adem&aacute;s de componentes y m&oacute;dulos de JavaScript, es com&uacute;n compartir recursos est&aacute;ticos como im&aacute;genes, fuentes y estilos CSS entre diferentes aplicaciones.
                     </p>
                     <p>
-                        <strong>Pasos para compartir recursos estáticos:</strong>
+                        <strong>Pasos para compartir recursos est&aacute;ticos:</strong>
                     </p>
                     <ul>
-                        <li><strong>Crear una Biblioteca de Recursos:</strong> Organiza los recursos estáticos en una carpeta dedicada dentro de tu paquete o aplicación.</li>
-                        <li><strong>Importar los Recursos en la Aplicación Destino:</strong> Utiliza rutas relativas o absolutas para importar y utilizar los recursos en tus componentes.</li>
+                        <li><strong>Crear una biblioteca de recursos:</strong> Organiza los recursos est&aacute;ticos en una carpeta dedicada dentro de tu paquete o aplicaci&oacute;n.</li>
+                        <li><strong>Importar los Recursos en la Aplicaci&oacute;n Destino:</strong> Utiliza rutas relativas o absolutas para importar y utilizar los recursos en tus componentes.</li>
                     </ul>
                     <p>
                         <strong>Ejemplo de uso:</strong>
@@ -975,10 +975,10 @@ p {
     export default MiComponente;
     `}</code></pre>
                     <p>
-                        <strong>Explicación del Código:</strong>
+                        <strong>Explicaci&oacute;n del c&oacute;digo:</strong>
                     </p>
                     <ul>
-                        <li><strong>Importación de Recursos:</strong> Se importa una imagen <code>logo.png</code> desde la carpeta de <code>assets</code>.</li>
+                        <li><strong>Importaci&oacute;n de Recursos:</strong> Se importa una imagen <code>logo.png</code> desde la carpeta de <code>assets</code>.</li>
                         <li><strong>Uso de Recursos:</strong> La imagen importada se utiliza dentro del componente React.</li>
                         <li><strong>Estilos CSS:</strong> Se importan estilos específicos para el componente desde <code>MiComponente.css</code>.</li>
                     </ul>
@@ -987,13 +987,13 @@ p {
                     </p>
                     <ul>
                         <li>
-                            <strong>Compatibilidad de Versiones:</strong> Asegúrate de que las versiones de los paquetes o componentes que estás referenciando sean compatibles con tu aplicación para evitar conflictos y errores.
+                            <strong>Compatibilidad de Versiones:</strong> Aseg&uacute;rate de que las versiones de los paquetes o componentes que est&aacute;s referenciando sean compatibles con tu aplicaci&oacute;n para evitar conflictos y errores.
                         </li>
                         <li>
-                            <strong>Mantenimiento y Actualizaciones:</strong> Cuando se referencian ficheros desde otras aplicaciones, es importante mantener un control sobre las actualizaciones y cambios en esos ficheros para asegurar que tu aplicación siga funcionando correctamente.
+                            <strong>Mantenimiento y Actualizaciones:</strong> Cuando se referencian ficheros desde otras aplicaciones, es importante mantener un control sobre las actualizaciones y cambios en esos ficheros para asegurar que tu aplicaci&oacute;n siga funcionando correctamente.
                         </li>
                         <li>
-                            <strong>Gestión de Dependencias:</strong> Utiliza herramientas como <strong>Yarn Workspaces</strong> o <strong>Lerna</strong> para gestionar múltiples paquetes dentro de un mismo repositorio, facilitando la referencia y actualización de dependencias compartidas.
+                            <strong>Gesti&oacute;n de Dependencias:</strong> Utiliza herramientas como <strong>Yarn Workspaces</strong> o <strong>Lerna</strong> para gestionar m&uacute;ltiples paquetes dentro de un mismo repositorio, facilitando la referencia y actualizaci&oacute;n de dependencias compartidas.
                         </li>
                     </ul>
                 </div>
@@ -1006,41 +1006,41 @@ p {
                 <div className="w3-twothird w3-container">
                     <h1 className="w3-text-teal">Conclusiones</h1>
                     <p>
-                        A lo largo de este tutorial, hemos explorado los fundamentos esenciales de <strong>React</strong>, un <strong>framework</strong> de <strong>JavaScript</strong> que ha revolucionado la forma en que construimos interfaces de usuario dinámicas y eficientes. Desde la creación de componentes básicos hasta la implementación de rutas y la gestión de estilos, React ofrece una estructura robusta y flexible que facilita el desarrollo de aplicaciones escalables y mantenibles.
+                        A lo largo de este tutorial, hemos explorado los fundamentos esenciales de <strong>React</strong>, un <strong>framework</strong> de <strong>JavaScript</strong> que ha revolucionado la forma en que construimos interfaces de usuario din&aacute;micas y eficientes. Desde la creaci&oacute;n de componentes b&aacute;sicos hasta la implementaci&oacute;n de rutas y la gesti&oacute;n de estilos, React ofrece una estructura robusta y flexible que facilita el desarrollo de aplicaciones escalables y mantenibles.
                     </p>
                     <h3>Resumen de los Puntos Clave</h3>
                     <ul>
-                        <li><strong>Componentes React:</strong> Entendimos cómo crear y utilizar componentes reutilizables para construir interfaces modulares.</li>
+                        <li><strong>Componentes React:</strong> Entendimos c&oacute;mo crear y utilizar componentes reutilizables para construir interfaces modulares.</li>
                         <li><strong>JSX:</strong> Aprendimos a combinar JavaScript con sintaxis similar a HTML para definir la estructura de los componentes.</li>
-                        <li><strong>Virtual DOM:</strong> Descubrimos cómo React optimiza las actualizaciones de la interfaz utilizando el Virtual DOM para mejorar el rendimiento.</li>
-                        <li><strong>Gestión de Estado y Props:</strong> Exploramos cómo manejar datos internos de los componentes y pasar información entre ellos de manera eficiente.</li>
-                        <li><strong>React Router:</strong> Implementamos la navegación entre diferentes vistas de la aplicación utilizando rutas.</li>
-                        <li><strong>Estilos y CSS:</strong> Vimos cómo aplicar estilos a los componentes utilizando archivos CSS y prácticas recomendadas.</li>
+                        <li><strong>Virtual DOM:</strong> Descubrimos c&oacute;mo React optimiza las actualizaciones de la interfaz utilizando el Virtual DOM para mejorar el rendimiento.</li>
+                        <li><strong>Gesti&oacute;n de Estado y Props:</strong> Exploramos c&oacute;mo manejar datos internos de los componentes y pasar informaci&oacute;n entre ellos de manera eficiente.</li>
+                        <li><strong>React Router:</strong> Implementamos la navegaci&oacute;n entre diferentes vistas de la aplicaci&oacute;n utilizando rutas.</li>
+                        <li><strong>Estilos y CSS:</strong> Vimos c&oacute;mo aplicar estilos a los componentes utilizando archivos CSS y pr&aacute;cticas recomendadas.</li>
                     </ul>
                     <h3>Ventajas de Utilizar React</h3>
                     <ul>
-                        <li><strong>Reutilización de Código:</strong> La naturaleza basada en componentes de React permite reutilizar bloques de código, reduciendo la duplicación y facilitando el mantenimiento.</li>
-                        <li><strong>Rendimiento Optimizado:</strong> El uso del Virtual DOM minimiza las actualizaciones costosas del DOM real, mejorando la eficiencia de la aplicación.</li>
-                        <li><strong>Comunidad Activa:</strong> React cuenta con una amplia comunidad de desarrolladores que contribuyen con herramientas, bibliotecas y recursos, facilitando el aprendizaje y la resolución de problemas.</li>
-                        <li><strong>Flexibilidad:</strong> React se puede integrar fácilmente con otras tecnologías y bibliotecas, permitiendo una gran flexibilidad en el desarrollo de aplicaciones.</li>
-                        <li><strong>Escalabilidad:</strong> La estructura modular de React facilita la construcción de aplicaciones grandes y complejas de manera organizada y mantenible.</li>
+                        <li><strong>Reutilizaci&oacute;n de C&oacute;digo:</strong> La naturaleza basada en componentes de React permite reutilizar bloques de c&oacute;digo, reduciendo la duplicaci&oacute;n y facilitando el mantenimiento.</li>
+                        <li><strong>Rendimiento Optimizado:</strong> El uso del Virtual DOM minimiza las actualizaciones costosas del DOM real, mejorando la eficiencia de la aplicaci&oacute;n.</li>
+                        <li><strong>Comunidad Activa:</strong> React cuenta con una amplia comunidad de desarrolladores que contribuyen con herramientas, bibliotecas y recursos, facilitando el aprendizaje y la resoluci&oacute;n de problemas.</li>
+                        <li><strong>Flexibilidad:</strong> React se puede integrar f&aacute;cilmente con otras tecnologías y bibliotecas, permitiendo una gran flexibilidad en el desarrollo de aplicaciones.</li>
+                        <li><strong>Escalabilidad:</strong> La estructura modular de React facilita la construcci&oacute;n de aplicaciones grandes y complejas de manera organizada y mantenible.</li>
                     </ul>
-                    <h3>Próximos Pasos</h3>
+                    <h3>Pr&oacute;ximos Pasos</h3>
                     <p>
-                        Ahora que tienes una comprensión sólida de los conceptos básicos de React, puedes continuar profundizando en temas más avanzados para mejorar aún más tus habilidades de desarrollo. Algunas áreas recomendadas incluyen:
+                        Ahora que tienes una comprensi&oacute;n s&oacute;lida de los conceptos b&aacute;sicos de React, puedes continuar profundizando en temas m&aacute;s avanzados para mejorar a&uacute;n m&aacute;s tus habilidades de desarrollo. Algunas &aacute;reas recomendadas incluyen:
                     </p>
                     <ul>
-                        <li><strong>Gestión de Estado Avanzada:</strong> Explora herramientas como <strong>Redux</strong> o la <strong>Context API</strong> para manejar estados globales en aplicaciones más complejas.</li>
-                        <li><strong>Hooks de React:</strong> Aprende a utilizar <strong>Hooks</strong> como <code>useState</code>, <code>useEffect</code> y otros para manejar estados y efectos secundarios de manera más eficiente.</li>
-                        <li><strong>Optimización de Rendimiento:</strong> Investiga técnicas para optimizar el rendimiento de tus aplicaciones React, como la carga diferida (<strong>lazy loading</strong>) y la memorización de componentes.</li>
-                        <li><strong>Pruebas y Depuración:</strong> Familiarízate con herramientas y bibliotecas para probar y depurar tus aplicaciones React, asegurando su fiabilidad y calidad.</li>
-                        <li><strong>Integración con APIs:</strong> Aprende a conectar tus aplicaciones React con APIs externas para obtener y enviar datos de manera dinámica.</li>
+                        <li><strong>Gesti&oacute;n de Estado Avanzada:</strong> Explora herramientas como <strong>Redux</strong> o la <strong>Context API</strong> para manejar estados globales en aplicaciones m&aacute;s complejas.</li>
+                        <li><strong>Hooks de React:</strong> Aprende a utilizar <strong>Hooks</strong> como <code>useState</code>, <code>useEffect</code> y otros para manejar estados y efectos secundarios de manera m&aacute;s eficiente.</li>
+                        <li><strong>Optimizaci&oacute;n de Rendimiento:</strong> Investiga técnicas para optimizar el rendimiento de tus aplicaciones React, como la carga diferida (<strong>lazy loading</strong>) y la memorizaci&oacute;n de componentes.</li>
+                        <li><strong>Pruebas y Depuraci&oacute;n:</strong> Familiarízate con herramientas y bibliotecas para probar y depurar tus aplicaciones React, asegurando su fiabilidad y calidad.</li>
+                        <li><strong>Integraci&oacute;n con APIs:</strong> Aprende a conectar tus aplicaciones React con APIs externas para obtener y enviar datos de manera din&aacute;mica.</li>
                     </ul>
                     <p>
-                        Además, considera participar en la comunidad de React asistiendo a conferencias, contribuyendo a proyectos de código abierto o siguiendo blogs y tutoriales especializados. La constante actualización y práctica son clave para dominar React y mantenerse al día con sus evoluciones y mejores prácticas.
+                        Adem&aacute;s, considera participar en la comunidad de React asistiendo a conferencias, contribuyendo a proyectos de c&oacute;digo abierto o siguiendo blogs y tutoriales especializados. La constante actualizaci&oacute;n y pr&aacute;ctica son clave para dominar React y mantenerse al día con sus evoluciones y mejores pr&aacute;cticas.
                     </p>
                     <p>
-                        <strong>¡Felicidades!</strong> Has dado un paso importante hacia la creación de aplicaciones web modernas y eficientes utilizando React. Sigue explorando, practicando y construyendo proyectos desafiantes para consolidar tus conocimientos y habilidades en este poderoso framework.
+                        <strong>¡Felicidades!</strong> Has dado un paso importante hacia la creaci&oacute;n de aplicaciones web modernas y eficientes utilizando React. Sigue explorando, practicando y construyendo proyectos desafiantes para consolidar tus conocimientos y habilidades en este poderoso framework.
                     </p>
                 </div>
 
