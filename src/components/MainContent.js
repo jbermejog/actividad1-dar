@@ -356,23 +356,8 @@ npm -v
                     <p>
                         El siguiente paso es editar el archivo <code>App.js</code> para cambiar el contenido que se muestra en la página. Por defecto, <code>Create React App</code> genera una plantilla con un logotipo de React y algunos enlaces. Vamos a simplificarlo para mostrar únicamente el mensaje "Hola Mundo".
                     </p>
-                    <pre><code>{`import React from 'react';
-import React from 'react';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <h1>Hola Mundo</h1>
-    </div>
-  );
-}
-
-export default App;`}</code></pre>
-
+                    <img src="https://jbermejog.github.io//actividad1-dar/ejemplo1.png" alt="Ejemplo de Hola Mundo en React" />
                 </div>
-
-
             </section>
 
             {/* Utilización del Framework */}
