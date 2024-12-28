@@ -9,13 +9,13 @@ const Navbar = () => {
     <div className="w3-top">
       <div className="w3-bar w3-theme w3-top w3-left-align w3-large">
 
-        <Link to="/actividad1-dar/tutorial-basico" className="w3-bar-item w3-button w3-theme-l1">
+        <Link to="/tutorial-basico" className="w3-bar-item w3-button w3-theme-l1">
           <FontAwesomeIcon icon={faGraduationCap} className="navbar-icon" /> Tutorial básico
         </Link>
-        <Link to="/actividad1-dar/tutorial-nivel-medio" className="w3-bar-item w3-button w3-hide-small w3-hover-white">
+        <Link to="/tutorial-nivel-medio" className="w3-bar-item w3-button w3-hide-small w3-hover-white">
           <FontAwesomeIcon icon={faBookOpen} className="navbar-icon" /> Tutorial nivel medio
         </Link>
-        <Link to="/actividad1-dar/referencias" className="w3-bar-item w3-button w3-hide-small w3-hover-white">
+        <Link to="/referencias" className="w3-bar-item w3-button w3-hide-small w3-hover-white">
           <FontAwesomeIcon icon={faBookmark} className="navbar-icon" /> Referencias
         </Link>
         <a href="https://github.com/jbermejog/actividad1-dar" className="w3-bar-item w3-button w3-hide-small w3-hover-white">
