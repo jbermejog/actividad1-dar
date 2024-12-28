@@ -17,17 +17,17 @@ const AppContent = () => {
     <div className="App">
       <Navbar />
       {/* Renderiza Sidebar o SidebarMedium según la ruta */}
-      {location.pathname.startsWith('/actividad1-dar') && <Sidebar />}
-      {location.pathname.startsWith('/actividad1-dar/tutorial-nivel-medio') && <SidebarMedium />}
+      {location.pathname.startsWith('/tutorial-basico') && <Sidebar />}
+      {location.pathname.startsWith('/tutorial-nivel-medio') && <SidebarMedium />}
       {/* Puedes agregar más sidebars si tienes más rutas */}
       <div className="main-content">
         <Routes>
-          <Route path="/actividad1-dar" element={<Navigate to="/actividad1-dar/tutorial-basico" />} />
-          {/* <Route path="/tutorial-basico" element={<Navigate to="/actividad1-dar/tutorial-basico" />} /> */}
-          <Route path="/actividad1-dar/tutorial-basico/*" element={<MainContent />} />
-          <Route path="/actividad1-dar/tutorial-nivel-medio/*" element={<MediumContent />} />
+          <Route path="/" element={<Navigate to="/tutorial-basico" />} />
+          <Route path="/actividad1-dar" element={<Navigate to="/tutorial-basico" />} />
+          <Route path="/tutorial-basico/*" element={<MainContent />} />
+          <Route path="/tutorial-nivel-medio/*" element={<MediumContent />} />
           {/* Nueva Ruta para Referencias */}
-          <Route path="/actividad1-dar/referencias" element={<Referencias />} />
+          <Route path="/referencias" element={<Referencias />} />
           {/* Puedes agregar más rutas aquí según sea necesario */}
         </Routes>
       </div>
