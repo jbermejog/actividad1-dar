@@ -22,7 +22,7 @@ const AppContent = () => {
       {/* Puedes agregar más sidebars si tienes más rutas */}
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<Navigate to="/actividad1-dar" />} />
+          <Route path="/" element={<Navigate to="/actividad1-dar/tutorial-basico" />} />
           <Route path="/tutorial-basico" element={<Navigate to="/actividad1-dar/tutorial-basico" />} />
           <Route path="/actividad1-dar/tutorial-basico/*" element={<MainContent />} />
           <Route path="/actividad1-dar/tutorial-nivel-medio/*" element={<MediumContent />} />
